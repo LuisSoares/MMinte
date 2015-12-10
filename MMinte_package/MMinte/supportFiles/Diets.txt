@@ -1,0 +1,725 @@
+Abbreviation	ModelSEED_rxnID	ModelSEED_cpdID	Bug_rxnID	Complete	HighFiber	Protein	Western
+H2O	rxn05319	cpd00001	EX_cpd00001_e0[u]	-1000	0	0	0
+H2O	rxn08687	cpd00001	EX_cpd00001_e0[u]	-1000	0	0	0
+H2O	rxn09812	cpd00001	EX_cpd00001_e0[u]	-1000	0	0	0
+ATP	rxn29318	cpd00002	EX_cpd00002_e0[u]	-1000	0	0	0
+NAD	rxn13361	cpd00003	EX_cpd00003_e0[u]	-1000	0	0	0
+NAD	rxn24116	cpd00003	EX_cpd00003_e0[u]	-1000	0	0	0
+NAD	rxn33813	cpd00003	EX_cpd00003_e0[u]	-1000	0	0	0
+NADH	rxn29785	cpd00004	EX_cpd00004_e0[u]	-1000	0	0	0
+O2	rxn05468	cpd00007	EX_cpd00007_e0[u]	-1000	-1000	-1000	-1000
+O2	rxn09032	cpd00007	EX_cpd00007_e0[u]	-1000	-1000	-1000	-1000
+ADP	rxn29320	cpd00008	EX_cpd00008_e0[u]	-1000	0	0	0
+CoA	rxn10832	cpd00010	EX_cpd00010_e0[u]	-1000	0	0	0
+CO2	rxn05467	cpd00011	EX_cpd00011_e0[u]	-1000	0	0	0
+CO2	rxn08238	cpd00011	EX_cpd00011_e0[u]	-1000	0	0	0
+CO2	rxn09821	cpd00011	EX_cpd00011_e0[u]	-1000	0	0	0
+PPi	rxn29733	cpd00012	EX_cpd00012_e0[u]	-1000	0	0	0
+NH3	rxn05466	cpd00013	EX_cpd00013_e0[u]	-1000	0	0	0
+NH3	rxn08987	cpd00013	EX_cpd00013_e0[u]	-1000	0	0	0
+NH3	rxn29241	cpd00013	EX_cpd00013_e0[u]	-1000	0	0	0
+NH3	rxn29242	cpd00013	EX_cpd00013_e0[u]	-1000	0	0	0
+UDP	rxn29340	cpd00014	EX_cpd00014_e0[u]	-1000	0	0	0
+FAD	rxn29783	cpd00015	EX_cpd00015_e0[u]	-1000	0	0	0
+S-Adenosyl-L-methionine	rxn29883	cpd00017	EX_cpd00017_e0[u]	-1000	0	0	0
+AMP	rxn13227	cpd00018	EX_cpd00018_e0[u]	-1000	0	0	0
+AMP	rxn29321	cpd00018	EX_cpd00018_e0[u]	-1000	0	0	0
+Pyruvate	rxn10929	cpd00020	EX_cpd00020_e0[u]	-1000	0	0	0
+Pyruvate	rxn29234	cpd00020	EX_cpd00020_e0[u]	-1000	0	0	0
+Fe2+	rxn12420	cpd00021	EX_cpd00021_e0[u]	-1000	-1	-1	-1
+L-Glutamate	rxn10917	cpd00023	EX_cpd00023_e0[u]	-1000	-0.18	-0.36	-0.18
+2-Oxoglutarate	rxn10923	cpd00024	EX_cpd00024_e0[u]	-1000	0	0	0
+2-Oxoglutarate	rxn30603	cpd00024	EX_cpd00024_e0[u]	-1000	0	0	0
+UDP-glucose	rxn29897	cpd00026	EX_cpd00026_e0[u]	-1000	0	0	0
+D-Glucose	rxn09679	cpd00027	EX_cpd00027_e0[u]	-1000	0	0	0
+Heme	rxn09116	cpd00028	EX_cpd00028_e0[u]	-1000	-1	-1	-1
+Heme	rxn10919	cpd00028	EX_cpd00028_e0[u]	-1000	-1	-1	-1
+Heme	rxn34396	cpd00028	EX_cpd00028_e0[u]	-1000	-1	-1	-1
+Acetate	rxn10904	cpd00029	EX_cpd00029_e0[u]	-1000	0	0	0
+Acetate	rxn28609	cpd00029	EX_cpd00029_e0[u]	-1000	0	0	0
+Mn2+	rxn08947	cpd00030	EX_cpd00030_e0[u]	-1000	-1	-1	-1
+GDP	rxn29335	cpd00031	EX_cpd00031_e0[u]	-1000	0	0	0
+Oxaloacetate	rxn23651	cpd00032	EX_cpd00032_e0[u]	-1000	0	0	0
+Glycine	rxn05218	cpd00033	EX_cpd00033_e0[u]	-1000	-0.45	-0.9	-0.45
+Glycine	rxn13111	cpd00033	EX_cpd00033_e0[u]	-1000	-0.45	-0.9	-0.45
+Zn2+	rxn09391	cpd00034	EX_cpd00034_e0[u]	-1000	-1	-1	-1
+Zn2+	rxn28559	cpd00034	EX_cpd00034_e0[u]	-1000	-1	-1	-1
+L-Alanine	rxn10921	cpd00035	EX_cpd00035_e0[u]	-1000	-0.3	-0.6	-0.3
+L-Alanine	rxn13221	cpd00035	EX_cpd00035_e0[u]	-1000	-0.3	-0.6	-0.3
+Succinate	rxn10952	cpd00036	EX_cpd00036_e0[u]	-1000	0	0	0
+Succinate	rxn31086	cpd00036	EX_cpd00036_e0[u]	-1000	0	0	0
+UDP-N-acetylglucosamine	rxn29913	cpd00037	EX_cpd00037_e0[u]	-1000	0	0	0
+GTP	rxn12663	cpd00038	EX_cpd00038_e0[u]	-1000	0	0	0
+L-Lysine	rxn10834	cpd00039	EX_cpd00039_e0[u]	-1000	-0.15	-0.3	-0.15
+Glyoxalate	rxn28610	cpd00040	EX_cpd00040_e0[u]	-1000	0	0	0
+L-Aspartate	rxn10906	cpd00041	EX_cpd00041_e0[u]	-1000	-0.225	-0.45	-0.225
+L-Aspartate	rxn13232	cpd00041	EX_cpd00041_e0[u]	-1000	-0.225	-0.45	-0.225
+GSH	rxn10829	cpd00042	EX_cpd00042_e0[u]	-1000	0	0	0
+UDP-galactose	rxn29910	cpd00043	EX_cpd00043_e0[u]	-1000	0	0	0
+Adenosine 3-5-bisphosphate	rxn09665	cpd00045	EX_cpd00045_e0[u]	-1000	0	0	0
+CMP	rxn29324	cpd00046	EX_cpd00046_e0[u]	-1000	0	0	0
+Formate	rxn09682	cpd00047	EX_cpd00047_e0[u]	-1000	0	0	0
+Formate	rxn09754	cpd00047	EX_cpd00047_e0[u]	-1000	0	0	0
+Sulfate	rxn05238	cpd00048	EX_cpd00048_e0[u]	-1000	-1	-1	-1
+L-Arginine	rxn10840	cpd00051	EX_cpd00051_e0[u]	-1000	-0.15	-0.3	-0.15
+CTP	rxn29325	cpd00052	EX_cpd00052_e0[u]	-1000	0	0	0
+L-Glutamine	rxn10928	cpd00053	EX_cpd00053_e0[u]	-1000	-0.18	-0.36	-0.18
+L-Serine	rxn10999	cpd00054	EX_cpd00054_e0[u]	-1000	-0.3	-0.6	-0.3
+L-Serine	rxn13110	cpd00054	EX_cpd00054_e0[u]	-1000	-0.3	-0.6	-0.3
+Formaldehyde	rxn08462	cpd00055	EX_cpd00055_e0[u]	-1000	0	0	0
+TPP	rxn32561	cpd00056	EX_cpd00056_e0[u]	-1000	0	0	0
+TPP	rxn38725	cpd00056	EX_cpd00056_e0[u]	-1000	0	0	0
+Cu2+	rxn05212	cpd00058	EX_cpd00058_e0[u]	-1000	-1	-1	-1
+Cu2+	rxn08274	cpd00058	EX_cpd00058_e0[u]	-1000	-1	-1	-1
+L-Methionine	rxn10976	cpd00060	EX_cpd00060_e0[u]	-1000	-0.18	-0.36	-0.18
+UTP	rxn29342	cpd00062	EX_cpd00062_e0[u]	-1000	0	0	0
+Ca2+	rxn29529	cpd00063	EX_cpd00063_e0[u]	-1000	0	0	0
+Ornithine	rxn10824	cpd00064	EX_cpd00064_e0[u]	-1000	0	0	0
+L-Tryptophan	rxn05222	cpd00065	EX_cpd00065_e0[u]	-1000	-0.081	-0.162	-0.081
+L-Phenylalanine	rxn11018	cpd00066	EX_cpd00066_e0[u]	-1000	-0.099	-0.198	-0.099
+H+	rxn11009	cpd00067	EX_cpd00067_e0[u]	-1000	0	0	0
+H+	rxn34471	cpd00067	EX_cpd00067_e0[u]	-1000	0	0	0
+L-Tyrosine	rxn10974	cpd00069	EX_cpd00069_e0[u]	-1000	-0.099	-0.198	-0.099
+Acetaldehyde	rxn08033	cpd00071	EX_cpd00071_e0[u]	-1000	0	0	0
+Acetaldehyde	rxn09700	cpd00071	EX_cpd00071_e0[u]	-1000	0	0	0
+Acetaldehyde	rxn13212	cpd00071	EX_cpd00071_e0[u]	-1000	0	0	0
+D-fructose-6-phosphate	rxn13638	cpd00072	EX_cpd00072_e0[u]	-1000	0	0	0
+Urea	rxn05667	cpd00073	EX_cpd00073_e0[u]	-1000	0	0	0
+Urea	rxn09369	cpd00073	EX_cpd00073_e0[u]	-1000	0	0	0
+S	rxn10605	cpd00074	EX_cpd00074_e0[u]	-1000	0	0	0
+Nitrite	rxn29054	cpd00075	EX_cpd00075_e0[u]	-1000	0	0	0
+Nitrite	rxn29236	cpd00075	EX_cpd00075_e0[u]	-1000	0	0	0
+Sucrose	rxn28594	cpd00076	EX_cpd00076_e0[u]	-1000	-0.03125	-0.078125	-0.14743391
+Catechol	rxn12790	cpd00077	EX_cpd00077_e0[u]	-1000	0	0	0
+D-glucose-6-phosphate	rxn13641	cpd00079	EX_cpd00079_e0[u]	-1000	0	0	0
+Glycerol-3-phosphate	rxn11234	cpd00080	EX_cpd00080_e0[u]	-1000	0	0	0
+Glycerol-3-phosphate	rxn34379	cpd00080	EX_cpd00080_e0[u]	-1000	0	0	0
+D-Fructose	rxn12996	cpd00082	EX_cpd00082_e0[u]	-1000	0	0	0
+GDP-mannose	rxn29906	cpd00083	EX_cpd00083_e0[u]	-1000	0	0	0
+L-Cysteine	rxn10998	cpd00084	EX_cpd00084_e0[u]	-1000	-0.3	-0.6	-0.3
+Tetrahydrofolate	rxn33478	cpd00087	EX_cpd00087_e0[u]	-1000	-1	-1	-1
+UMP	rxn29341	cpd00091	EX_cpd00091_e0[u]	-1000	0	0	0
+Uracil	rxn10993	cpd00092	EX_cpd00092_e0[u]	-1000	0	0	0
+Anthranilate	rxn12383	cpd00093	EX_cpd00093_e0[u]	-1000	0	0	0
+2-Oxobutyrate	rxn29351	cpd00094	EX_cpd00094_e0[u]	-1000	0	0	0
+Glycerone-phosphate	rxn09771	cpd00095	EX_cpd00095_e0[u]	-1000	0	0	0
+CDP	rxn29323	cpd00096	EX_cpd00096_e0[u]	-1000	0	0	0
+Cl-	rxn10473	cpd00099	EX_cpd00099_e0[u]	-1000	0	0	0
+Cl-	rxn29055	cpd00099	EX_cpd00099_e0[u]	-1000	0	0	0
+BIOT	rxn29122	cpd00104	EX_cpd00104_e0[u]	-1000	0	0	0
+BIOT	rxn38791	cpd00104	EX_cpd00104_e0[u]	-1000	0	0	0
+BIOT	rxn38792	cpd00104	EX_cpd00104_e0[u]	-1000	0	0	0
+D-Ribose	rxn29248	cpd00105	EX_cpd00105_e0[u]	-1000	0	0	0
+Fumarate	rxn11013	cpd00106	EX_cpd00106_e0[u]	-1000	0	0	0
+Fumarate	rxn30673	cpd00106	EX_cpd00106_e0[u]	-1000	0	0	0
+L-Leucine	rxn11003	cpd00107	EX_cpd00107_e0[u]	-1000	-0.15	-0.3	-0.15
+Galactose	rxn10911	cpd00108	EX_cpd00108_e0[u]	-1000	-0.0625	-0.15625	-0.29486781
+Oxidized glutathione	rxn09677	cpd00111	EX_cpd00111_e0[u]	-1000	0	0	0
+Isopentenyldiphosphate	rxn34386	cpd00113	EX_cpd00113_e0[u]	-1000	0	0	0
+IMP	rxn29337	cpd00114	EX_cpd00114_e0[u]	-1000	0	0	0
+dATP	rxn12647	cpd00115	EX_cpd00115_e0[u]	-1000	0	0	0
+Methanol	rxn10570	cpd00116	EX_cpd00116_e0[u]	-1000	0	0	0
+D-Alanine	rxn10991	cpd00117	EX_cpd00117_e0[u]	-1000	0	0	0
+L-Histidine	rxn10932	cpd00119	EX_cpd00119_e0[u]	-1000	-0.15	-0.3	-0.15
+L-Inositol	rxn29918	cpd00121	EX_cpd00121_e0[u]	-1000	0	0	0
+GMP	rxn29336	cpd00126	EX_cpd00126_e0[u]	-1000	0	0	0
+Adenine	rxn10918	cpd00128	EX_cpd00128_e0[u]	-1000	0	0	0
+L-Proline	rxn10945	cpd00129	EX_cpd00129_e0[u]	-1000	-0.18	-0.36	-0.18
+L-Malate	rxn10967	cpd00130	EX_cpd00130_e0[u]	-1000	0	0	0
+L-Asparagine	rxn05220	cpd00132	EX_cpd00132_e0[u]	-1000	-0.225	-0.45	-0.225
+Nicotinamide	rxn10867	cpd00133	EX_cpd00133_e0[u]	-1000	0	0	0
+Citrate	rxn10946	cpd00137	EX_cpd00137_e0[u]	-1000	0	0	0
+Citrate	rxn30640	cpd00137	EX_cpd00137_e0[u]	-1000	0	0	0
+D-Mannose	rxn12997	cpd00138	EX_cpd00138_e0[u]	-1000	-0.0625	-0.15625	-0.29486781
+Glycolate	rxn28666	cpd00139	EX_cpd00139_e0[u]	-1000	0	0	0
+Propionate	rxn10836	cpd00141	EX_cpd00141_e0[u]	-1000	0	0	0
+Propionate	rxn29233	cpd00141	EX_cpd00141_e0[u]	-1000	0	0	0
+Acetoacetate	rxn10960	cpd00142	EX_cpd00142_e0[u]	-1000	0	0	0
+Acetoacetate	rxn29148	cpd00142	EX_cpd00142_e0[u]	-1000	0	0	0
+UDPglucuronate	rxn29911	cpd00144	EX_cpd00144_e0[u]	-1000	0	0	0
+Co2+	rxn08242	cpd00149	EX_cpd00149_e0[u]	-1000	-1	-1	-1
+Xylose	rxn09650	cpd00154	EX_cpd00154_e0[u]	-1000	0	0	0
+Glycogen	rxn05580	cpd00155	EX_cpd00155_e0[u]	-1000	0	0	0
+Glycogen	rxn30290	cpd00155	EX_cpd00155_e0[u]	-1000	0	0	0
+L-Valine	rxn05245	cpd00156	EX_cpd00156_e0[u]	-1000	-0.18	-0.36	-0.18
+Glycerone	rxn05532	cpd00157	EX_cpd00157_e0[u]	-1000	0	0	0
+Glycerone	rxn08326	cpd00157	EX_cpd00157_e0[u]	-1000	0	0	0
+L-Lactate	rxn11016	cpd00159	EX_cpd00159_e0[u]	-1000	0	0	0
+L-Threonine	rxn10898	cpd00161	EX_cpd00161_e0[u]	-1000	-0.225	-0.45	-0.225
+L-Threonine	rxn13117	cpd00161	EX_cpd00161_e0[u]	-1000	-0.225	-0.45	-0.225
+Aminoethanol	rxn10841	cpd00162	EX_cpd00162_e0[u]	-1000	0	0	0
+UDP-xylose	rxn29909	cpd00163	EX_cpd00163_e0[u]	-1000	0	0	0
+3-Phosphoglycerate	rxn34184	cpd00169	EX_cpd00169_e0[u]	-1000	0	0	0
+dADP	rxn29326	cpd00177	EX_cpd00177_e0[u]	-1000	0	0	0
+Maltose	rxn29412	cpd00179	EX_cpd00179_e0[u]	-1000	-0.03125	-0.078125	-0.14743391
+Adenosine	rxn11000	cpd00182	EX_cpd00182_e0[u]	-1000	0	0	0
+Thymidine	rxn10916	cpd00184	EX_cpd00184_e0[u]	-1000	0	0	0
+D-Arabinose	rxn05499	cpd00185	EX_cpd00185_e0[u]	-1000	0	0	0
+Arachidonate	rxn39013	cpd00188	EX_cpd00188_e0[u]	-1000	0	0	0
+beta-D-Glucose	rxn28584	cpd00190	EX_cpd00190_e0[u]	-1000	0	0	0
+Protocatechuate	rxn12246	cpd00197	EX_cpd00197_e0[u]	-1000	0	0	0
+4MOP	rxn13113	cpd00200	EX_cpd00200_e0[u]	-1000	0	0	0
+DMAPP	rxn34362	cpd00202	EX_cpd00202_e0[u]	-1000	0	0	0
+K+	rxn05206	cpd00205	EX_cpd00205_e0[u]	-1000	-1	-1	-1
+K+	rxn27350	cpd00205	EX_cpd00205_e0[u]	-1000	-1	-1	-1
+dCMP	rxn29328	cpd00206	EX_cpd00206_e0[u]	-1000	0	0	0
+Guanine	rxn08683	cpd00207	EX_cpd00207_e0[u]	-1000	0	0	0
+Guanine	rxn10142	cpd00207	EX_cpd00207_e0[u]	-1000	0	0	0
+LACT	rxn28585	cpd00208	EX_cpd00208_e0[u]	-1000	0	0	0
+Nitrate	rxn10935	cpd00209	EX_cpd00209_e0[u]	-1000	0	0	0
+Butyrate	rxn11382	cpd00211	EX_cpd00211_e0[u]	-1000	0	0	0
+L-Sorbose	rxn05653	cpd00212	EX_cpd00212_e0[u]	-1000	0	0	0
+L-Sorbose	rxn28581	cpd00212	EX_cpd00212_e0[u]	-1000	0	0	0
+Palmitate	rxn09676	cpd00214	EX_cpd00214_e0[u]	-1000	0	0	0
+Palmitate	rxn31182	cpd00214	EX_cpd00214_e0[u]	-1000	0	0	0
+Pyridoxal	rxn12666	cpd00215	EX_cpd00215_e0[u]	-1000	-1	-1	-1
+Pyridoxal	rxn29117	cpd00215	EX_cpd00215_e0[u]	-1000	-1	-1	-1
+Brachiose	rxn29402	cpd00217	EX_cpd00217_e0[u]	-1000	0	0	0
+Niacin	rxn05310	cpd00218	EX_cpd00218_e0[u]	-1000	0	0	0
+Niacin	rxn08970	cpd00218	EX_cpd00218_e0[u]	-1000	0	0	0
+Riboflavin	rxn05224	cpd00220	EX_cpd00220_e0[u]	-1000	-1	-1	-1
+D-Lactate	rxn29362	cpd00221	EX_cpd00221_e0[u]	-1000	0	0	0
+GLCN	rxn12424	cpd00222	EX_cpd00222_e0[u]	-1000	0	0	0
+Glycerate	rxn30485	cpd00223	EX_cpd00223_e0[u]	-1000	0	0	0
+Glycerate	rxn31197	cpd00223	EX_cpd00223_e0[u]	-1000	0	0	0
+L-Arabinose	rxn09695	cpd00224	EX_cpd00224_e0[u]	-1000	0	0	0
+HYXN	rxn08738	cpd00226	EX_cpd00226_e0[u]	-1000	0	0	0
+HYXN	rxn10143	cpd00226	EX_cpd00226_e0[u]	-1000	0	0	0
+Glycolaldehyde	rxn09680	cpd00229	EX_cpd00229_e0[u]	-1000	0	0	0
+D-mannose-6-phosphate	rxn13644	cpd00235	EX_cpd00235_e0[u]	-1000	0	0	0
+H2S	rxn10541	cpd00239	EX_cpd00239_e0[u]	-1000	-1	-1	-1
+dGTP	rxn12648	cpd00241	EX_cpd00241_e0[u]	-1000	0	0	0
+H2CO3	rxn10826	cpd00242	EX_cpd00242_e0[u]	-1000	0	0	0
+H2CO3	rxn29060	cpd00242	EX_cpd00242_e0[u]	-1000	0	0	0
+H2CO3	rxn29238	cpd00242	EX_cpd00242_e0[u]	-1000	0	0	0
+Ni2+	rxn08992	cpd00244	EX_cpd00244_e0[u]	-1000	0	0	0
+Inosine	rxn29210	cpd00246	EX_cpd00246_e0[u]	-1000	0	0	0
+Orotate	rxn10908	cpd00247	EX_cpd00247_e0[u]	-1000	-1	-1	-1
+Uridine	rxn10987	cpd00249	EX_cpd00249_e0[u]	-1000	0	0	0
+ADPribose	rxn38757	cpd00251	EX_cpd00251_e0[u]	-1000	0	0	0
+Mg	rxn08923	cpd00254	EX_cpd00254_e0[u]	-1000	-1	-1	-1
+D-Lyxulose	rxn28582	cpd00259	EX_cpd00259_e0[u]	-1000	0	0	0
+L-Lyxulose	rxn29479	cpd00261	EX_cpd00261_e0[u]	-1000	0	0	0
+Pyridoxol	rxn13097	cpd00263	EX_cpd00263_e0[u]	-1000	0	0	0
+Pyridoxol	rxn29112	cpd00263	EX_cpd00263_e0[u]	-1000	0	0	0
+Pyridoxol	rxn32339	cpd00263	EX_cpd00263_e0[u]	-1000	0	0	0
+Amylopectin	rxn29423	cpd00265	EX_cpd00265_e0[u]	-1000	-0.00108481	-0.0004921	-5.56E-05
+Carnitine	rxn09691	cpd00266	EX_cpd00266_e0[u]	-1000	0	0	0
+Carnitine	rxn09773	cpd00266	EX_cpd00266_e0[u]	-1000	0	0	0
+H2S2O3	rxn29734	cpd00268	EX_cpd00268_e0[u]	-1000	0	0	0
+2-Oxoadipate	rxn09803	cpd00269	EX_cpd00269_e0[u]	-1000	0	0	0
+Geranyldiphosphate	rxn35575	cpd00283	EX_cpd00283_e0[u]	-1000	0	0	0
+Undecaprenylphosphate	rxn09346	cpd00286	EX_cpd00286_e0[u]	-1000	0	0	0
+D-Glucosamine phosphate	rxn05568	cpd00288	EX_cpd00288_e0[u]	-1000	0	0	0
+D-Glucosamine phosphate	rxn13642	cpd00288	EX_cpd00288_e0[u]	-1000	0	0	0
+dGDP	rxn29330	cpd00295	EX_cpd00295_e0[u]	-1000	0	0	0
+dGMP	rxn29331	cpd00296	EX_cpd00296_e0[u]	-1000	0	0	0
+dTDP	rxn29338	cpd00297	EX_cpd00297_e0[u]	-1000	0	0	0
+dTMP	rxn29339	cpd00298	EX_cpd00298_e0[u]	-1000	0	0	0
+dUMP	rxn29333	cpd00299	EX_cpd00299_e0[u]	-1000	0	0	0
+Retinal	rxn34451	cpd00304	EX_cpd00304_e0[u]	-1000	-1	-1	-1
+Thiamin	rxn11006	cpd00305	EX_cpd00305_e0[u]	-1000	-1	-1	-1
+Xylitol	rxn09651	cpd00306	EX_cpd00306_e0[u]	-1000	0	0	0
+XAN	rxn09379	cpd00309	EX_cpd00309_e0[u]	-1000	0	0	0
+XAN	rxn09652	cpd00309	EX_cpd00309_e0[u]	-1000	0	0	0
+Guanosine	rxn10897	cpd00311	EX_cpd00311_e0[u]	-1000	0	0	0
+D-Mannitol	rxn28589	cpd00314	EX_cpd00314_e0[u]	-1000	0	0	0
+GDP-glucose	rxn29904	cpd00315	EX_cpd00315_e0[u]	-1000	0	0	0
+D-Aspartate	rxn12404	cpd00320	EX_cpd00320_e0[u]	-1000	0	0	0
+L-Isoleucine	rxn10933	cpd00322	EX_cpd00322_e0[u]	-1000	-0.15	-0.3	-0.15
+L-Isoleucine	rxn13323	cpd00322	EX_cpd00322_e0[u]	-1000	-0.15	-0.3	-0.15
+MTTL	rxn10470	cpd00324	EX_cpd00324_e0[u]	-1000	0	0	0
+cis-Aconitate	rxn30639	cpd00331	EX_cpd00331_e0[u]	-1000	0	0	0
+N-Carbamoyl-L-aspartate	rxn09824	cpd00343	EX_cpd00343_e0[u]	-1000	0	0	0
+Farnesyldiphosphate	rxn34371	cpd00350	EX_cpd00350_e0[u]	-1000	0	0	0
+D-threo-Isocitric acid	rxn29365	cpd00353	EX_cpd00353_e0[u]	-1000	0	0	0
+D-threo-Isocitric acid	rxn30706	cpd00353	EX_cpd00353_e0[u]	-1000	0	0	0
+Nicotinamide ribonucleotide	rxn08995	cpd00355	EX_cpd00355_e0[u]	-1000	0	0	0
+Nicotinamide ribonucleotide	rxn10181	cpd00355	EX_cpd00355_e0[u]	-1000	0	0	0
+dCTP	rxn29329	cpd00356	EX_cpd00356_e0[u]	-1000	0	0	0
+TTP	rxn09686	cpd00357	EX_cpd00357_e0[u]	-1000	0	0	0
+dUTP	rxn29334	cpd00358	EX_cpd00358_e0[u]	-1000	0	0	0
+Purine	rxn29344	cpd00360	EX_cpd00360_e0[u]	-1000	0	0	0
+Ethanol	rxn09683	cpd00363	EX_cpd00363_e0[u]	-1000	0	0	0
+Ribitol	rxn29487	cpd00366	EX_cpd00366_e0[u]	-1000	0	0	0
+Cytidine	rxn10997	cpd00367	EX_cpd00367_e0[u]	-1000	0	0	0
+D-Lyxose	rxn29481	cpd00368	EX_cpd00368_e0[u]	-1000	0	0	0
+Melitose	rxn28574	cpd00382	EX_cpd00382_e0[u]	-1000	0	0	0
+ADPglucose	rxn29892	cpd00387	EX_cpd00387_e0[u]	-1000	0	0	0
+Allantoate	rxn09697	cpd00388	EX_cpd00388_e0[u]	-1000	0	0	0
+Phycite	rxn29465	cpd00392	EX_cpd00392_e0[u]	-1000	0	0	0
+Folate	rxn38796	cpd00393	EX_cpd00393_e0[u]	-1000	-1	-1	-1
+L-Ribulose	rxn29476	cpd00397	EX_cpd00397_e0[u]	-1000	0	0	0
+Deoxyuridine	rxn10984	cpd00412	EX_cpd00412_e0[u]	-1000	0	0	0
+L-Lyxitol	rxn05483	cpd00417	EX_cpd00417_e0[u]	-1000	0	0	0
+NO	rxn09009	cpd00418	EX_cpd00418_e0[u]	-1000	0	0	0
+NO	rxn10828	cpd00418	EX_cpd00418_e0[u]	-1000	0	0	0
+PM	rxn29116	cpd00419	EX_cpd00419_e0[u]	-1000	0	0	0
+Phenylcarbinol	rxn12384	cpd00435	EX_cpd00435_e0[u]	-1000	0	0	0
+Deoxyadenosine	rxn10939	cpd00438	EX_cpd00438_e0[u]	-1000	0	0	0
+cAMP	rxn29322	cpd00446	EX_cpd00446_e0[u]	-1000	0	0	0
+D-Glyceraldehyde	rxn08636	cpd00448	EX_cpd00448_e0[u]	-1000	0	0	0
+D-Glyceraldehyde	rxn10164	cpd00448	EX_cpd00448_e0[u]	-1000	0	0	0
+Methyl sulfide	rxn10500	cpd00450	EX_cpd00450_e0[u]	-1000	0	0	0
+"1,2-Propanediol"	rxn07922	cpd00453	EX_cpd00453_e0[u]	-1000	0	0	0
+"1,2-Propanediol"	rxn10140	cpd00453	EX_cpd00453_e0[u]	-1000	0	0	0
+Coniferol	rxn12794	cpd00458	EX_cpd00458_e0[u]	-1000	0	0	0
+UDPgalacturonate	rxn29908	cpd00472	EX_cpd00472_e0[u]	-1000	0	0	0
+2-Dehydro-D-gluconate	rxn13791	cpd00480	EX_cpd00480_e0[u]	-1000	0	0	0
+Glycerophosphocholine	rxn13291	cpd00507	EX_cpd00507_e0[u]	-1000	0	0	0
+N2	rxn10577	cpd00528	EX_cpd00528_e0[u]	-1000	0	0	0
+Hg2+	rxn05586	cpd00531	EX_cpd00531_e0[u]	-1000	0	0	0
+O2-	rxn29735	cpd00532	EX_cpd00532_e0[u]	-1000	0	0	0
+dCDP	rxn29327	cpd00533	EX_cpd00533_e0[u]	-1000	0	0	0
+Oleate	rxn28606	cpd00536	EX_cpd00536_e0[u]	-1000	0	0	0
+Pterin	rxn38794	cpd00538	EX_cpd00538_e0[u]	-1000	0	0	0
+BET	rxn12430	cpd00540	EX_cpd00540_e0[u]	-1000	0	0	0
+D-Serine	rxn10965	cpd00550	EX_cpd00550_e0[u]	-1000	0	0	0
+Siroheme	rxn29728	cpd00557	EX_cpd00557_e0[u]	-1000	0	0	0
+Spermine	rxn09659	cpd00558	EX_cpd00558_e0[u]	-1000	-1	-1	-1
+Glucarate	rxn29111	cpd00571	EX_cpd00571_e0[u]	-1000	0	0	0
+Sorbitol	rxn09662	cpd00588	EX_cpd00588_e0[u]	-1000	0	0	0
+D-Tagatose	rxn29490	cpd00589	EX_cpd00589_e0[u]	-1000	0	0	0
+SALC	rxn12401	cpd00599	EX_cpd00599_e0[u]	-1000	0	0	0
+4-Coumarate	rxn12813	cpd00604	EX_cpd00604_e0[u]	-1000	0	0	0
+D-Glucarate	rxn12442	cpd00609	EX_cpd00609_e0[u]	-1000	0	0	0
+dTDPglucose	rxn29900	cpd00626	EX_cpd00626_e0[u]	-1000	0	0	0
+Cbl	rxn28561	cpd00635	EX_cpd00635_e0[u]	-1000	-1	-1	-1
+Cbl	rxn28562	cpd00635	EX_cpd00635_e0[u]	-1000	-1	-1	-1
+L-Rhamnulose	rxn29486	cpd00642	EX_cpd00642_e0[u]	-1000	0	0	0
+PAN	rxn38800	cpd00644	EX_cpd00644_e0[u]	-1000	-1	-1	-1
+D-Mucic acid	rxn12441	cpd00652	EX_cpd00652_e0[u]	-1000	0	0	0
+D-Mucic acid	rxn29110	cpd00652	EX_cpd00652_e0[u]	-1000	0	0	0
+Deoxycytidine	rxn11014	cpd00654	EX_cpd00654_e0[u]	-1000	0	0	0
+Isochorismate	rxn29879	cpd00658	EX_cpd00658_e0[u]	-1000	0	0	0
+Nitrous oxide	rxn08967	cpd00659	EX_cpd00659_e0[u]	-1000	0	0	0
+Nitrous oxide	rxn30495	cpd00659	EX_cpd00659_e0[u]	-1000	0	0	0
+alpha-Maltose	rxn28571	cpd00665	EX_cpd00665_e0[u]	-1000	0	0	0
+alpha-Maltose	rxn31172	cpd00665	EX_cpd00665_e0[u]	-1000	0	0	0
+Chloramphenicol	rxn30461	cpd00680	EX_cpd00680_e0[u]	-1000	0	0	0
+Indoleacetate	rxn29874	cpd00703	EX_cpd00703_e0[u]	-1000	0	0	0
+beta D-Galactose	rxn28583	cpd00709	EX_cpd00709_e0[u]	-1000	0	0	0
+O-Acetyl-L-serine	rxn34353	cpd00722	EX_cpd00722_e0[u]	-1000	0	0	0
+O-Acetyl-L-serine	rxn34480	cpd00722	EX_cpd00722_e0[u]	-1000	0	0	0
+alpha-D-Galactose	rxn28569	cpd00724	EX_cpd00724_e0[u]	-1000	0	0	0
+2-Phosphoglycolate	rxn34183	cpd00727	EX_cpd00727_e0[u]	-1000	0	0	0
+2-Phosphoglycolate	rxn34453	cpd00727	EX_cpd00727_e0[u]	-1000	0	0	0
+Ala-Ala	rxn29313	cpd00731	EX_cpd00731_e0[u]	-1000	0	0	0
+Trimethylsulfonium	rxn29672	cpd00740	EX_cpd00740_e0[u]	-1000	0	0	0
+4-Guanidinobutanoate	rxn12407	cpd00762	EX_cpd00762_e0[u]	-1000	0	0	0
+7-8-Diaminononanoate	rxn38790	cpd00764	EX_cpd00764_e0[u]	-1000	0	0	0
+"Squalene 2,3-oxide"	rxn09640	cpd00776	EX_cpd00776_e0[u]	-1000	0	0	0
+TRHL	rxn28595	cpd00794	EX_cpd00794_e0[u]	-1000	0	0	0
+(R)-3-Hydroxybutanoate	rxn12405	cpd00797	EX_cpd00797_e0[u]	-1000	0	0	0
+8-Amino-7-oxononanoate	rxn38788	cpd00800	EX_cpd00800_e0[u]	-1000	0	0	0
+8-Amino-7-oxononanoate	rxn38789	cpd00800	EX_cpd00800_e0[u]	-1000	0	0	0
+N-Acetyl-D-chondrosamine	rxn29409	cpd00832	EX_cpd00832_e0[u]	-1000	0	0	0
+beta-D-Glucose 6-phosphate	rxn29246	cpd00863	EX_cpd00863_e0[u]	-1000	0	0	0
+p-hydroxyphenylpyruvate	rxn29364	cpd00868	EX_cpd00868_e0[u]	-1000	0	0	0
+4-methylthio 2-oxobutyrate	rxn29353	cpd00869	EX_cpd00869_e0[u]	-1000	0	0	0
+Caffeate	rxn12785	cpd00881	EX_cpd00881_e0[u]	-1000	0	0	0
+GDP-4-dehydro-D-rhamnose	rxn29903	cpd00900	EX_cpd00900_e0[u]	-1000	0	0	0
+sn-glycero-3-Phospho-1-inositol	rxn13292	cpd00902	EX_cpd00902_e0[u]	-1000	0	0	0
+12-OPDA	rxn29356	cpd00903	EX_cpd00903_e0[u]	-1000	0	0	0
+Toxopyrimidine	rxn29190	cpd00939	EX_cpd00939_e0[u]	-1000	0	0	0
+6-hydroxymethyl dihydropterin	rxn38795	cpd00954	EX_cpd00954_e0[u]	-1000	0	0	0
+Na+	rxn10899	cpd00971	EX_cpd00971_e0[u]	-1000	-1	-1	-1
+dUDP	rxn29332	cpd00978	EX_cpd00978_e0[u]	-1000	0	0	0
+Octane	rxn12402	cpd00998	EX_cpd00998_e0[u]	-1000	0	0	0
+Aspirin	rxn12410	cpd01006	EX_cpd01006_e0[u]	-1000	0	0	0
+Cd2+	rxn08198	cpd01012	EX_cpd01012_e0[u]	-1000	0	0	0
+Cd2+	rxn29670	cpd01012	EX_cpd01012_e0[u]	-1000	0	0	0
+Cyanate	rxn29056	cpd01015	EX_cpd01015_e0[u]	-1000	0	0	0
+Cys-Gly	rxn38732	cpd01017	EX_cpd01017_e0[u]	-1000	0	0	0
+Methane	rxn10471	cpd01024	EX_cpd01024_e0[u]	-1000	0	0	0
+Sorbose	rxn13125	cpd01031	EX_cpd01031_e0[u]	-1000	0	0	0
+Toluol	rxn12815	cpd01034	EX_cpd01034_e0[u]	-1000	0	0	0
+D-Allose	rxn29372	cpd01055	EX_cpd01055_e0[u]	-1000	0	0	0
+D-Apiose	rxn29374	cpd01056	EX_cpd01056_e0[u]	-1000	0	0	0
+D-Iditol	rxn29408	cpd01057	EX_cpd01057_e0[u]	-1000	0	0	0
+Ferulate	rxn12796	cpd01059	EX_cpd01059_e0[u]	-1000	0	0	0
+L-Iditol	rxn28580	cpd01066	EX_cpd01066_e0[u]	-1000	0	0	0
+ocdca	rxn09669	cpd01080	EX_cpd01080_e0[u]	-1000	0	0	0
+ocdca	rxn34366	cpd01080	EX_cpd01080_e0[u]	-1000	0	0	0
+Allantoin	rxn09698	cpd01092	EX_cpd01092_e0[u]	-1000	0	0	0
+Decanoate	rxn13159	cpd01107	EX_cpd01107_e0[u]	-1000	0	0	0
+Linoleate	rxn39014	cpd01122	EX_cpd01122_e0[u]	-1000	-0.23845139	-0.23845139	-0.41728993
+Stachyose	rxn28578	cpd01133	EX_cpd01133_e0[u]	-1000	-0.11458333	-0.05208333	-0.0058774
+Xylobiose	rxn28576	cpd01144	EX_cpd01144_e0[u]	-1000	0	0	0
+Acrylamide	rxn10941	cpd01150	EX_cpd01150_e0[u]	-1000	0	0	0
+Chitobiose	rxn29180	cpd01157	EX_cpd01157_e0[u]	-1000	0	0	0
+Ergosterol	rxn09646	cpd01170	EX_cpd01170_e0[u]	-1000	0	0	0
+Ergosterol	rxn09684	cpd01170	EX_cpd01170_e0[u]	-1000	0	0	0
+Dulcose	rxn29468	cpd01171	EX_cpd01171_e0[u]	-1000	0	0	0
+L-Fuculose	rxn29474	cpd01186	EX_cpd01186_e0[u]	-1000	0	0	0
+D-Gulitol	rxn09661	cpd01187	EX_cpd01187_e0[u]	-1000	0	0	0
+Lanosterol	rxn12860	cpd01188	EX_cpd01188_e0[u]	-1000	0	0	0
+Thiopurine	rxn34421	cpd01212	EX_cpd01212_e0[u]	-1000	0	0	0
+Xanthosine	rxn29211	cpd01217	EX_cpd01217_e0[u]	-1000	0	0	0
+D-Erythrose	rxn29466	cpd01239	EX_cpd01239_e0[u]	-1000	0	0	0
+Thyminose	rxn29369	cpd01242	EX_cpd01242_e0[u]	-1000	0	0	0
+Amylotriose	rxn28588	cpd01262	EX_cpd01262_e0[u]	-1000	0	0	0
+D-Lyxitol	rxn29406	cpd01307	EX_cpd01307_e0[u]	-1000	0	0	0
+beta-Maltose	rxn28586	cpd01355	EX_cpd01355_e0[u]	-1000	0	0	0
+Acetylcholine	rxn19035	cpd01367	EX_cpd01367_e0[u]	-1000	-1	-1	-1
+D-Erythrulose	rxn29463	cpd01383	EX_cpd01383_e0[u]	-1000	0	0	0
+L-Erythrulose	rxn29467	cpd01395	EX_cpd01395_e0[u]	-1000	0	0	0
+Maltotetraose	rxn28587	cpd01399	EX_cpd01399_e0[u]	-1000	0	0	0
+Volemulose	rxn29489	cpd01407	EX_cpd01407_e0[u]	-1000	0	0	0
+UDP-L-rhamnose	rxn29912	cpd01481	EX_cpd01481_e0[u]	-1000	0	0	0
+alpha-D-Lyxose	rxn29405	cpd01486	EX_cpd01486_e0[u]	-1000	0	0	0
+alpha-D-Xylose	rxn28596	cpd01487	EX_cpd01487_e0[u]	-1000	0	0	0
+beta-D-Mannose	rxn38517	cpd01490	EX_cpd01490_e0[u]	-1000	0	0	0
+D-Chondrosamine	rxn29469	cpd01524	EX_cpd01524_e0[u]	-1000	0	0	0
+GDP-L-galactose	rxn29905	cpd01536	EX_cpd01536_e0[u]	-1000	0	0	0
+beta-L-Rhamnose	rxn29454	cpd01562	EX_cpd01562_e0[u]	-1000	0	0	0
+alpha-L-Rhamnose	rxn29485	cpd01627	EX_cpd01627_e0[u]	-1000	0	0	0
+O-Acetylcarnitine	rxn09867	cpd01682	EX_cpd01682_e0[u]	-1000	0	0	0
+Pimelate	rxn10979	cpd01727	EX_cpd01727_e0[u]	-1000	-1	-1	-1
+ddca	rxn13160	cpd01741	EX_cpd01741_e0[u]	-1000	0	0	0
+N-Acetylmuramate	rxn29483	cpd01757	EX_cpd01757_e0[u]	-1000	0	0	0
+2-Deoxy-D-galactose	rxn29420	cpd01794	EX_cpd01794_e0[u]	-1000	0	0	0
+"(R)-1,2-Propanediol"	rxn07920	cpd01861	EX_cpd01861_e0[u]	-1000	0	0	0
+D-Glucosyl-D-mannose	rxn29404	cpd01902	EX_cpd01902_e0[u]	-1000	0	0	0
+maltose-6-phosphate	rxn29403	cpd01919	EX_cpd01919_e0[u]	-1000	0	0	0
+N-Ribosylnicotinamide	rxn29221	cpd02016	EX_cpd02016_e0[u]	-1000	0	0	0
+N-Ribosylnicotinamide	rxn30522	cpd02016	EX_cpd02016_e0[u]	-1000	0	0	0
+dTDP-rhamnose	rxn29902	cpd02113	EX_cpd02113_e0[u]	-1000	0	0	0
+Colitose	rxn29438	cpd02127	EX_cpd02127_e0[u]	-1000	0	0	0
+D-Mannosamine	rxn29413	cpd02241	EX_cpd02241_e0[u]	-1000	0	0	0
+1F-beta-D-Fructosylsucrose	rxn28566	cpd02298	EX_cpd02298_e0[u]	-1000	0	0	0
+4-Hydroxyphenylacetaldehyde	rxn30232	cpd02361	EX_cpd02361_e0[u]	-1000	0	0	0
+N-Acetyl-beta-D-glucosamine	rxn28592	cpd02416	EX_cpd02416_e0[u]	-1000	0	0	0
+UDP-4-oxo-6-deoxy-D-glucose	rxn29898	cpd02528	EX_cpd02528_e0[u]	-1000	0	0	0
+CMP-KDO	rxn38758	cpd02546	EX_cpd02546_e0[u]	-1000	0	0	0
+alpha-D-Aldosyl beta-D-fructoside	rxn29386	cpd02593	EX_cpd02593_e0[u]	-1000	0	0	0
+4-Methyl-5--2-hydroxyethyl-thiazole	rxn38785	cpd02636	EX_cpd02636_e0[u]	-1000	0	0	0
+4-Methyl-5--2-hydroxyethyl-thiazole	rxn38787	cpd02636	EX_cpd02636_e0[u]	-1000	0	0	0
+3-Isopropylmalate	rxn13112	cpd02693	EX_cpd02693_e0[u]	-1000	0	0	0
+Fecosterol	rxn12862	cpd02755	EX_cpd02755_e0[u]	-1000	0	0	0
+"UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine"	rxn29907	cpd02835	EX_cpd02835_e0[u]	-1000	0	0	0
+"12,13(S)-EOT"	rxn29355	cpd02846	EX_cpd02846_e0[u]	-1000	0	0	0
+UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)	rxn29894	cpd02862	EX_cpd02862_e0[u]	-1000	0	0	0
+13(S)-HPODE	rxn29348	cpd02873	EX_cpd02873_e0[u]	-1000	0	0	0
+UDP-3-O-(beta-hydroxymyristoyl)-N-acetylglucosamine	rxn29914	cpd02886	EX_cpd02886_e0[u]	-1000	0	0	0
+4-Amino-2-methyl-5-diphosphomethylpyrimidine	rxn38726	cpd02894	EX_cpd02894_e0[u]	-1000	0	0	0
+OPC-8:0	rxn29357	cpd02905	EX_cpd02905_e0[u]	-1000	0	0	0
+13(S)-HPOT	rxn29354	cpd02907	EX_cpd02907_e0[u]	-1000	0	0	0
+UDP-N-acetylmuramoyl-L-Ala-D-gamma-Glu-6-carboxy-L-Lys-(D-Ala)2	rxn29893	cpd02932	EX_cpd02932_e0[u]	-1000	0	0	0
+Fructose(pyranose)	rxn29392	cpd03014	EX_cpd03014_e0[u]	-1000	0	0	0
+N-Acetyl-beta-D-galactosamine	rxn28575	cpd03019	EX_cpd03019_e0[u]	-1000	0	0	0
+Phenethylamine	rxn11405	cpd03161	EX_cpd03161_e0[u]	-1000	0	0	0
+Phenethylamine	rxn29152	cpd03161	EX_cpd03161_e0[u]	-1000	0	0	0
+Ciprofloxacin	rxn30471	cpd03173	EX_cpd03173_e0[u]	-1000	0	0	0
+Melibiose	rxn28590	cpd03198	EX_cpd03198_e0[u]	-1000	-0.03125	-0.078125	-0.14743391
+Manninotriose	rxn29427	cpd03200	EX_cpd03200_e0[u]	-1000	0	0	0
+Zymosterol	rxn09649	cpd03221	EX_cpd03221_e0[u]	-1000	0	0	0
+"5,7,22,24(28)-Ergostatetraenol"	rxn12865	cpd03223	EX_cpd03223_e0[u]	-1000	0	0	0
+Deoxyinosine	rxn29209	cpd03279	EX_cpd03279_e0[u]	-1000	0	0	0
+Phenylpropanoate	rxn29149	cpd03343	EX_cpd03343_e0[u]	-1000	0	0	0
+Selenite	rxn34446	cpd03387	EX_cpd03387_e0[u]	-1000	-1	-1	-1
+Cobinamide	rxn29150	cpd03422	EX_cpd03422_e0[u]	-1000	0	0	0
+Cobinamide	rxn29151	cpd03422	EX_cpd03422_e0[u]	-1000	0	0	0
+2-phenylethanol	rxn13196	cpd03481	EX_cpd03481_e0[u]	-1000	0	0	0
+2-phenylethanol	rxn13197	cpd03481	EX_cpd03481_e0[u]	-1000	0	0	0
+kdo2-lipid iva	rxn08761	cpd03586	EX_cpd03586_e0[u]	-1000	0	0	0
+kdo2-lipid a	rxn08791	cpd03587	EX_cpd03587_e0[u]	-1000	0	0	0
+kdo2-lipid a	rxn29473	cpd03587	EX_cpd03587_e0[u]	-1000	0	0	0
+ApppA	rxn29198	cpd03705	EX_cpd03705_e0[u]	-1000	0	0	0
+Celloheptaose	rxn29456	cpd03718	EX_cpd03718_e0[u]	-1000	0	0	0
+Cellotriose	rxn29378	cpd03721	EX_cpd03721_e0[u]	-1000	0	0	0
+Ferrichrome	rxn28599	cpd03724	EX_cpd03724_e0[u]	-1000	0	0	0
+Ferrichrome	rxn28600	cpd03724	EX_cpd03724_e0[u]	-1000	0	0	0
+Fe(III)dicitrate	rxn28597	cpd03725	EX_cpd03725_e0[u]	-1000	-1	-1	-1
+Fe(III)dicitrate	rxn28598	cpd03725	EX_cpd03725_e0[u]	-1000	-1	-1	-1
+Acetamide	rxn10936	cpd03734	EX_cpd03734_e0[u]	-1000	0	0	0
+1-Deoxy-D-xylulose	rxn29182	cpd03738	EX_cpd03738_e0[u]	-1000	0	0	0
+beta-Cellobiose	rxn29377	cpd03845	EX_cpd03845_e0[u]	-1000	0	0	0
+octanoate	rxn29141	cpd03846	EX_cpd03846_e0[u]	-1000	-0.00859397	-0.0089397	-0.01503944
+octanoate	rxn29352	cpd03846	EX_cpd03846_e0[u]	-1000	0	0	0
+Myristic acid	rxn09654	cpd03847	EX_cpd03847_e0[u]	-1000	0	0	0
+Arachidic acid	rxn39012	cpd03848	EX_cpd03848_e0[u]	-1000	-0.00220988	-0.00220988	-0.00386729
+Linolenate	rxn39015	cpd03850	EX_cpd03850_e0[u]	-1000	0	0	0
+D-Altrose	rxn29373	cpd03880	EX_cpd03880_e0[u]	-1000	0	0	0
+D-Gulose	rxn29470	cpd03881	EX_cpd03881_e0[u]	-1000	0	0	0
+D-Idose	rxn29471	cpd03882	EX_cpd03882_e0[u]	-1000	0	0	0
+D-Psicose	rxn29484	cpd03884	EX_cpd03884_e0[u]	-1000	0	0	0
+Neuraminic acid	rxn29398	cpd03885	EX_cpd03885_e0[u]	-1000	0	0	0
+Abequose	rxn29439	cpd03887	EX_cpd03887_e0[u]	-1000	0	0	0
+p-Xylene	rxn12807	cpd04136	EX_cpd04136_e0[u]	-1000	0	0	0
+Lactulose	rxn29407	cpd04349	EX_cpd04349_e0[u]	-1000	0	0	0
+m-Xylene	rxn12804	cpd04446	EX_cpd04446_e0[u]	-1000	0	0	0
+Citalopram	rxn34422	cpd04740	EX_cpd04740_e0[u]	-1000	0	0	0
+Thioguanine	rxn34449	cpd04809	EX_cpd04809_e0[u]	-1000	0	0	0
+5-FU	rxn34419	cpd04810	EX_cpd04810_e0[u]	-1000	0	0	0
+Ajugose	rxn29426	cpd05156	EX_cpd05156_e0[u]	-1000	0	0	0
+Gentiobiose	rxn29410	cpd05158	EX_cpd05158_e0[u]	-1000	0	0	0
+Verbascose	rxn29425	cpd05170	EX_cpd05170_e0[u]	-1000	0	0	0
+Quinovose	rxn29387	cpd05266	EX_cpd05266_e0[u]	-1000	0	0	0
+Ribose	rxn29250	cpd05267	EX_cpd05267_e0[u]	-1000	0	0	0
+Petroselinic acid	rxn29360	cpd05275	EX_cpd05275_e0[u]	-1000	0	0	0
+Sulfur dioxide	rxn09259	cpd06201	EX_cpd06201_e0[u]	-1000	0	0	0
+Dihydrocaffeic acid	rxn12412	cpd07333	EX_cpd07333_e0[u]	-1000	0	0	0
+DMSO	rxn29142	cpd08021	EX_cpd08021_e0[u]	-1000	0	0	0
+4--cytidine5-diphospho-2-C-methyl-D-erythritol	rxn29891	cpd08287	EX_cpd08287_e0[u]	-1000	0	0	0
+2-phospho-4--cytidine5-diphospho-2-C-methyl-D-erythritol	rxn29890	cpd08288	EX_cpd08288_e0[u]	-1000	0	0	0
+dTDP-4-oxo-beta-L-rhamnose	rxn29901	cpd08300	EX_cpd08300_e0[u]	-1000	0	0	0
+NAC	rxn05623	cpd08325	EX_cpd08325_e0[u]	-1000	-1	-1	-1
+UDP-6-sulfoquinovose	rxn29915	cpd08358	EX_cpd08358_e0[u]	-1000	0	0	0
+Kanosamine	rxn29379	cpd08991	EX_cpd08991_e0[u]	-1000	0	0	0
+Sucralose	rxn29419	cpd09058	EX_cpd09058_e0[u]	-1000	0	0	0
+Tegafur	rxn34448	cpd09288	EX_cpd09288_e0[u]	-1000	0	0	0
+Betadex	rxn29414	cpd09394	EX_cpd09394_e0[u]	-1000	0	0	0
+Fe2+	rxn08476	cpd10515	EX_cpd10515_e0[u]	-1000	-1	-1	-1
+Fe2+	rxn10963	cpd10515	EX_cpd10515_e0[u]	-1000	-1	-1	-1
+fe3	rxn05292	cpd10516	EX_cpd10516_e0[u]	-1000	-1	-1	-1
+benzylacetate	rxn12408	cpd11193	EX_cpd11193_e0[u]	-1000	0	0	0
+hemeO	rxn39016	cpd11313	EX_cpd11313_e0[u]	-1000	0	0	0
+Myristoyl-ACP	rxn09762	cpd11466	EX_cpd11466_e0[u]	-1000	0	0	0
+Dodecanoyl-ACP	rxn09763	cpd11468	EX_cpd11468_e0[u]	-1000	0	0	0
+Molybdate	rxn29245	cpd11574	EX_cpd11574_e0[u]	-1000	-1	-1	-1
+Inulin	rxn28593	cpd11602	EX_cpd11602_e0[u]	-1000	-0.1527778	-0.00694444	-0.0078365
+Menaquinone 7	rxn12664	cpd11606	EX_cpd11606_e0[u]	-1000	-1	-1	-1
+Acyl-CoA	rxn12632	cpd11611	EX_cpd11611_e0[u]	-1000	0	0	0
+hn	rxn31154	cpd11632	EX_cpd11632_e0[u]	-1000	0	0	0
+H2	rxn08692	cpd11640	EX_cpd11640_e0[u]	-1000	0	0	0
+Hyaluronate	rxn38518	cpd11691	EX_cpd11691_e0[u]	-1000	0	0	0
+tRNA uridine	rxn39011	cpd11767	EX_cpd11767_e0[u]	-1000	0	0	0
+Octadecenoyl-ACP	rxn09757	cpd11825	EX_cpd11825_e0[u]	-1000	0	0	0
+Lipid	rxn29317	cpd11852	EX_cpd11852_e0[u]	-1000	0	0	0
+Levan n	rxn28567	cpd12840	EX_cpd12840_e0[u]	-1000	-0.00045833	-0.00020833	-2.35E-05
+Episterol	rxn12863	cpd14514	EX_cpd14514_e0[u]	-1000	0	0	0
+L-Gulose	rxn29462	cpd14652	EX_cpd14652_e0[u]	-1000	0	0	0
+(R)-Lipoic acid	rxn29146	cpd14958	EX_cpd14958_e0[u]	-1000	0	0	0
+Traumatin	rxn29347	cpd15025	EX_cpd15025_e0[u]	-1000	0	0	0
+12-Oxo-9(Z)-dodecenoic acid	rxn29346	cpd15027	EX_cpd15027_e0[u]	-1000	0	0	0
+Geranic acid	rxn29358	cpd15165	EX_cpd15165_e0[u]	-1000	0	0	0
+"4,4-dimethylzymosterol"	rxn12861	cpd15210	EX_cpd15210_e0[u]	-1000	0	0	0
+hexadecenoate	rxn09675	cpd15237	EX_cpd15237_e0[u]	-1000	-0.02424727	-0.02424727	-0.04243272
+hexadecenoate	rxn34365	cpd15237	EX_cpd15237_e0[u]	-1000	0	0	0
+Hexadecenoyl-ACP	rxn09759	cpd15239	EX_cpd15239_e0[u]	-1000	0	0	0
+Octadecanoyl-ACP	rxn09758	cpd15268	EX_cpd15268_e0[u]	-1000	0	0	0
+octadecenoate	rxn09668	cpd15269	EX_cpd15269_e0[u]	-1000	-0.4524847	-0.4524847	-0.79184823
+octadecenoate	rxn34367	cpd15269	EX_cpd15269_e0[u]	-1000	-0.4524847	-0.4524847	-0.79184823
+octadecynoate	rxn09667	cpd15270	EX_cpd15270_e0[u]	-1000	0	0	0
+Octadecynoyl-ACP	rxn09756	cpd15271	EX_cpd15271_e0[u]	-1000	0	0	0
+Palmitoyl-ACP	rxn09760	cpd15277	EX_cpd15277_e0[u]	-1000	0	0	0
+Tetradecenoyl-ACP	rxn09761	cpd15294	EX_cpd15294_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol didodecanoyl"	rxn07912	cpd15306	EX_cpd15306_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol ditetradecanoyl"	rxn07913	cpd15307	EX_cpd15307_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol ditetradec-7-enoyl"	rxn07914	cpd15308	EX_cpd15308_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol dihexadecanoyl"	rxn07915	cpd15309	EX_cpd15309_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol dihexadec-9-enoyl"	rxn07916	cpd15310	EX_cpd15310_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol dioctadecanoyl"	rxn07917	cpd15311	EX_cpd15311_e0[u]	-1000	0	0	0
+"1,2-Diacyl-sn-glycerol dioctadec-11-enoyl"	rxn07918	cpd15312	EX_cpd15312_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine dodecanoyl	rxn07939	cpd15336	EX_cpd15336_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine tetradecanoyl	rxn07940	cpd15337	EX_cpd15337_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine tetradec-7-enoyl	rxn07941	cpd15338	EX_cpd15338_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)	rxn07942	cpd15339	EX_cpd15339_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine hexadec-9-enoyl	rxn07943	cpd15340	EX_cpd15340_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)	rxn07944	cpd15341	EX_cpd15341_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoethanolamine octadec-11-enoyl	rxn07945	cpd15342	EX_cpd15342_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol dodecanoyl	rxn07953	cpd15343	EX_cpd15343_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol tetradecanoyl	rxn07954	cpd15344	EX_cpd15344_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol tetradec-7-enoyl	rxn07955	cpd15345	EX_cpd15345_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol hexadecanoyl	rxn07956	cpd15346	EX_cpd15346_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol hexadec-9-enoyl	rxn07957	cpd15347	EX_cpd15347_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol octadecanoyl	rxn07958	cpd15348	EX_cpd15348_e0[u]	-1000	0	0	0
+2-Acyl-sn-glycero-3-phosphoglycerol octadec-11-enoyl	rxn07959	cpd15349	EX_cpd15349_e0[u]	-1000	0	0	0
+2-dodecanoyl-sn-glycerol 3-phosphate	rxn07932	cpd15350	EX_cpd15350_e0[u]	-1000	0	0	0
+2-hexadec-9-enoyl-sn-glycerol 3-phosphate	rxn07936	cpd15354	EX_cpd15354_e0[u]	-1000	0	0	0
+2-hexadecanoyl-sn-glycerol 3-phosphate	rxn07935	cpd15355	EX_cpd15355_e0[u]	-1000	0	0	0
+2-octadec-11-enoyl-sn-glycerol 3-phosphate	rxn07938	cpd15357	EX_cpd15357_e0[u]	-1000	0	0	0
+2-octadecanoyl-sn-glycerol 3-phosphate	rxn07937	cpd15358	EX_cpd15358_e0[u]	-1000	0	0	0
+2-tetradec-7-enoyl-sn-glycerol 3-phosphate	rxn07934	cpd15362	EX_cpd15362_e0[u]	-1000	0	0	0
+2-tetradecanoyl-sn-glycerol 3-phosphate	rxn07933	cpd15363	EX_cpd15363_e0[u]	-1000	0	0	0
+4-Hydroxy-benzylalcohol	rxn12376	cpd15378	EX_cpd15378_e0[u]	-1000	0	0	0
+4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A	rxn08056	cpd15392	EX_cpd15392_e0[u]	-1000	0	0	0
+core oligosaccharide lipid A	rxn08244	cpd15432	EX_cpd15432_e0[u]	-1000	0	0	0
+coprogen	rxn28601	cpd15437	EX_cpd15437_e0[u]	-1000	0	0	0
+coprogen	rxn28602	cpd15437	EX_cpd15437_e0[u]	-1000	0	0	0
+(enterobacterial common antigen)x4 core oligosaccharide lipid A	rxn08406	cpd15457	EX_cpd15457_e0[u]	-1000	0	0	0
+phosphoethanolamine KDO(2)-lipid (A)	rxn08419	cpd15459	EX_cpd15459_e0[u]	-1000	0	0	0
+"ferric 2,3-dihydroxybenzoylserine"	rxn28603	cpd15460	EX_cpd15460_e0[u]	-1000	0	0	0
+fructoselysine	rxn29171	cpd15466	EX_cpd15466_e0[u]	-1000	0	0	0
+cold adapted KDO(2)-lipid (A)	rxn08218	cpd15493	EX_cpd15493_e0[u]	-1000	0	0	0
+(O16 antigen)x4 core oligosaccharide lipid A	rxn09020	cpd15518	EX_cpd15518_e0[u]	-1000	0	0	0
+psicoselysine	rxn29172	cpd15559	EX_cpd15559_e0[u]	-1000	0	0	0
+HPA	rxn29359	cpd15608	EX_cpd15608_e0[u]	-1000	0	0	0
+unknown degradation product of cbl1 for adocbl-HBI synthesis	rxn10616	cpd15910	EX_cpd15910_e0[u]	-1000	0	0	0
+unknown riboflavin degradation product	rxn10617	cpd15911	EX_cpd15911_e0[u]	-1000	0	0	0
+phenol palmitic acid	rxn10819	cpd16013	EX_cpd16013_e0[u]	-1000	0	0	0
+Lidocaine	rxn34425	cpd16326	EX_cpd16326_e0[u]	-1000	0	0	0
+Isoprene	rxn13765	cpd16336	EX_cpd16336_e0[u]	-1000	0	0	0
+"1,5-Anhydro-D-mannitol"	rxn29446	cpd16352	EX_cpd16352_e0[u]	-1000	0	0	0
+Monoethylglycinexylidide	rxn34426	cpd16375	EX_cpd16375_e0[u]	-1000	0	0	0
+beta-D-Ribofuranose	rxn29249	cpd16443	EX_cpd16443_e0[u]	-1000	0	0	0
+Deoxynojirimycin	rxn29367	cpd16592	EX_cpd16592_e0[u]	-1000	0	0	0
+ethylsalicylate	rxn12409	cpd16657	EX_cpd16657_e0[u]	-1000	0	0	0
+4-hydroxybenzylacetate	rxn12411	cpd16658	EX_cpd16658_e0[u]	-1000	0	0	0
+"5alpha-ergosta-7,22-dien-3beta-ol"	rxn12864	cpd16792	EX_cpd16792_e0[u]	-1000	0	0	0
+C24-CoA	rxn13161	cpd16798	EX_cpd16798_e0[u]	-1000	0	0	0
+C26-acid	rxn13162	cpd16799	EX_cpd16799_e0[u]	-1000	0	0	0
+glycerophosphatidyl-D-myo-inositol	rxn12980	cpd16805	EX_cpd16805_e0[u]	-1000	0	0	0
+glycerophosphatidylcholine	rxn12979	cpd16806	EX_cpd16806_e0[u]	-1000	0	0	0
+hexadecanoyl-9-ene-acid	rxn13132	cpd16807	EX_cpd16807_e0[u]	-1000	0	0	0
+methylglucoside	rxn13124	cpd16821	EX_cpd16821_e0[u]	-1000	0	0	0
+octadecanoyl-9-ene-acid	rxn13133	cpd16823	EX_cpd16823_e0[u]	-1000	0	0	0
+stearoyl-ACP	rxn13158	cpd16828	EX_cpd16828_e0[u]	-1000	0	0	0
+tetradecanoyl-9-ene-acid	rxn13131	cpd16829	EX_cpd16829_e0[u]	-1000	0	0	0
+octadecadienoate (n-C18:2)	rxn13366	cpd16888	EX_cpd16888_e0[u]	-1000	0	0	0
+Mannosylfructose 6-phosphate	rxn29389	cpd18033	EX_cpd18033_e0[u]	-1000	0	0	0
+Mannosylfructose	rxn29390	cpd18050	EX_cpd18050_e0[u]	-1000	0	0	0
+alpha-D-Glucose	rxn28570	cpd19001	EX_cpd19001_e0[u]	-1000	0	0	0
+alpha-D-Glucose	rxn31356	cpd19001	EX_cpd19001_e0[u]	-1000	0	0	0
+Fructose	rxn29877	cpd19015	EX_cpd19015_e0[u]	-1000	-0.0625	-0.15625	-0.29486781
+(S)(+)-Allantoin	rxn29179	cpd19020	EX_cpd19020_e0[u]	-1000	0	0	0
+N-Acetyl-alpha-D-glucosamine 1-phosphate	rxn28591	cpd19031	EX_cpd19031_e0[u]	-1000	0	0	0
+beta-D-Fructose 6-phosphate	rxn34364	cpd19035	EX_cpd19035_e0[u]	-1000	0	0	0
+C11476	rxn29478	cpd19109	EX_cpd19109_e0[u]	-1000	0	0	0
+Arsenous oxide	rxn29782	cpd19149	EX_cpd19149_e0[u]	-1000	0	0	0
+Nickel(2+)	rxn29057	cpd20862	EX_cpd20862_e0[u]	-1000	0	0	0
+Manganese(2+)	rxn29671	cpd20863	EX_cpd20863_e0[u]	-1000	0	0	0
+18-Hydroxyoleate	rxn29349	cpd20869	EX_cpd20869_e0[u]	-1000	0	0	0
+18-Oxooleate	rxn29350	cpd20870	EX_cpd20870_e0[u]	-1000	0	0	0
+"Octadec-9-ene-1,18-dioic-acid"	rxn29363	cpd20871	EX_cpd20871_e0[u]	-1000	0	0	0
+L-Sorbosone	rxn29477	cpd20927	EX_cpd20927_e0[u]	-1000	0	0	0
+"UDP-2,3-diacetamido-2,3-dideoxy-alpha-D-glucuronate"	rxn29383	cpd20972	EX_cpd20972_e0[u]	-1000	0	0	0
+"UDP-2,3-diacetamido-2,3-dideoxy-alpha-D-mannuronate"	rxn29384	cpd20992	EX_cpd20992_e0[u]	-1000	0	0	0
+beta-D-Galactosyl-(1->4)-L-rhamnose	rxn29399	cpd21004	EX_cpd21004_e0[u]	-1000	0	0	0
+"ADP-ribose 1'',2''-phosphate"	rxn29899	cpd21093	EX_cpd21093_e0[u]	-1000	0	0	0
+1-deoxyxylonojirimycin	rxn29368	cpd21776	EX_cpd21776_e0[u]	-1000	0	0	0
+4-amino-4-deoxy-L-arabinose	rxn29370	cpd22105	EX_cpd22105_e0[u]	-1000	0	0	0
+6G-kestotriose	rxn28568	cpd22200	EX_cpd22200_e0[u]	-1000	0	0	0
+ACYL-COA	rxn38801	cpd22234	EX_cpd22234_e0[u]	-1000	0	0	0
+an alcohol group	rxn29343	cpd22250	EX_cpd22250_e0[u]	-1000	0	0	0
+allolactose	rxn29371	cpd22252	EX_cpd22252_e0[u]	-1000	-0.03125	-0.078125	-0.14743391
+Acids	rxn29345	cpd22296	EX_cpd22296_e0[u]	-1000	0	0	0
+Amino-Acids-20	rxn29366	cpd22369	EX_cpd22369_e0[u]	-1000	0	0	0
+beta-L-arabinopyranose	rxn29376	cpd22429	EX_cpd22429_e0[u]	-1000	0	0	0
+"1,6-kestotetraose"	rxn28573	cpd22431	EX_cpd22431_e0[u]	-1000	0	0	0
+BIOPTERIN	rxn29880	cpd22433	EX_cpd22433_e0[u]	-1000	0	0	0
+Fe(II)-NA	rxn25598	cpd22580	EX_cpd22580_e0[u]	-1000	0	0	0
+"(1,6)-beta-galactobiose"	rxn29381	cpd22631	EX_cpd22631_e0[u]	-1000	0	0	0
+trigalacturonate	rxn29382	cpd22633	EX_cpd22633_e0[u]	-1000	0	0	0
+alpha-L-fucopyranose	rxn29385	cpd22637	EX_cpd22637_e0[u]	-1000	0	0	0
+alpha-D-Gal-(1->3)-alpha-D-Gal-(1->2)-beta-D-Fru	rxn29388	cpd22774	EX_cpd22774_e0[u]	-1000	0	0	0
+alpha-D-fructofuranose	rxn29391	cpd22786	EX_cpd22786_e0[u]	-1000	0	0	0
+beta-D-fructopyranose	rxn29393	cpd22787	EX_cpd22787_e0[u]	-1000	0	0	0
+alpha-L-fructopyranose	rxn29394	cpd22788	EX_cpd22788_e0[u]	-1000	0	0	0
+beta-L-fructopyranose	rxn29395	cpd22789	EX_cpd22789_e0[u]	-1000	0	0	0
+alpha-L-fructofuranose	rxn29396	cpd22790	EX_cpd22790_e0[u]	-1000	0	0	0
+beta-L-fructofuranose	rxn29397	cpd22791	EX_cpd22791_e0[u]	-1000	0	0	0
+ADP ribose 1''-phosphate	rxn29895	cpd22822	EX_cpd22822_e0[u]	-1000	0	0	0
+beta-L-mannose	rxn29400	cpd23021	EX_cpd23021_e0[u]	-1000	0	0	0
+alpha-L-mannose	rxn29401	cpd23023	EX_cpd23023_e0[u]	-1000	0	0	0
+UDP-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala)	rxn29896	cpd23315	EX_cpd23315_e0[u]	-1000	0	0	0
+"1,2-dibutyrin"	rxn29885	cpd23712	EX_cpd23712_e0[u]	-1000	0	0	0
+"6G,6-kestotetraose"	rxn28579	cpd24378	EX_cpd24378_e0[u]	-1000	0	0	0
+L-Glucose	rxn29411	cpd24421	EX_cpd24421_e0[u]	-1000	0	0	0
+a-cyclodextrin	rxn29415	cpd24451	EX_cpd24451_e0[u]	-1000	0	0	0
+cyclooctaamylose	rxn29416	cpd24452	EX_cpd24452_e0[u]	-1000	-0.00152778	-0.0069444	-7.84E-05
+3-O-b-D-galactopyranosyl-D-arabinose	rxn29417	cpd24453	EX_cpd24453_e0[u]	-1000	0	0	0
+6-O-alpha-D-galactopyranosyl-D-gluconic acid	rxn29418	cpd24454	EX_cpd24454_e0[u]	-1000	0	0	0
+L-ribose	rxn29421	cpd24606	EX_cpd24606_e0[u]	-1000	0	0	0
+1-O-beta-D-glucopyranosyl-D-mannitol	rxn29422	cpd24607	EX_cpd24607_e0[u]	-1000	0	0	0
+S2-	rxn29732	cpd24697	EX_cpd24697_e0[u]	-1000	0	0	0
+O-alpha-D-galactopyranosyl-(1->6)-O-alpha-D-galactopyranosyl-(1->2)-4-O-methyl-chiro-inositol	rxn29424	cpd25013	EX_cpd25013_e0[u]	-1000	0	0	0
+O-alpha-D-galactopyranosyl-(1->6)-O-alpha-D-galactopyranosyl-(1->2)-1D-chiro-inositol	rxn29428	cpd25112	EX_cpd25112_e0[u]	-1000	0	0	0
+fagopyritol B3	rxn29429	cpd25113	EX_cpd25113_e0[u]	-1000	0	0	0
+O-alpha-D-galactopyranosyl-(1->6)-O-alpha-D-galactopyranosyl-(1->3)-1D-chiro-inositol	rxn29430	cpd25114	EX_cpd25114_e0[u]	-1000	0	0	0
+O-alpha-D-galactopyranosyl-(1->6)-O-alpha-D-galactopyranosyl-(1->6)-O-alpha-D-galactopyranosyl-(1->3)-1D-chiro-inositol	rxn29431	cpd25116	EX_cpd25116_e0[u]	-1000	0	0	0
+"3,6-anhydrogalactofuranose"	rxn29432	cpd25499	EX_cpd25499_e0[u]	-1000	0	0	0
+agarotetraose	rxn29433	cpd25500	EX_cpd25500_e0[u]	-1000	0	0	0
+beta-D-apiofuranosyl-(1->6)-D-glucose	rxn29434	cpd25522	EX_cpd25522_e0[u]	-1000	0	0	0
+"L-sorbosone 1,4-lactone"	rxn29435	cpd25544	EX_cpd25544_e0[u]	-1000	0	0	0
+"L-sorbosone 2,6-lactone"	rxn29436	cpd25545	EX_cpd25545_e0[u]	-1000	0	0	0
+D-perosamine	rxn29437	cpd25665	EX_cpd25665_e0[u]	-1000	0	0	0
+tyvelose	rxn29440	cpd25669	EX_cpd25669_e0[u]	-1000	0	0	0
+"3,6-dideoxy-L-arabino-hexose"	rxn29441	cpd25670	EX_cpd25670_e0[u]	-1000	0	0	0
+"(3,6-dideoxy-4-C-(1-hydroxyethyl)-D-xylo-hexose"	rxn29442	cpd25671	EX_cpd25671_e0[u]	-1000	0	0	0
+yersiniose B	rxn29443	cpd25672	EX_cpd25672_e0[u]	-1000	0	0	0
+"3,6-dideoxy-D-ribo-hexose"	rxn29444	cpd25673	EX_cpd25673_e0[u]	-1000	0	0	0
+"alpha-D-Galp2,6S2-(1->3)-beta-D-Galp2S-(1->4)-alpha-D-Galp2,6S2-(1->3)-D-Galp2S"	rxn29445	cpd25687	EX_cpd25687_e0[u]	-1000	0	0	0
+"6,6-kestotetraose"	rxn29447	cpd25730	EX_cpd25730_e0[u]	-1000	0	0	0
+Glcp-alpha-octyl	rxn29448	cpd25949	EX_cpd25949_e0[u]	-1000	0	0	0
+"Galf-beta-1,6-Glcp-alpha-octyl"	rxn29449	cpd25950	EX_cpd25950_e0[u]	-1000	0	0	0
+Manp-alpha-octyl	rxn29450	cpd25951	EX_cpd25951_e0[u]	-1000	0	0	0
+Galp-alpha-octyl	rxn29451	cpd25952	EX_cpd25952_e0[u]	-1000	0	0	0
+GlcNAcp-alpha-octyl	rxn29452	cpd25953	EX_cpd25953_e0[u]	-1000	0	0	0
+beta-L-fucopyranose	rxn29453	cpd25981	EX_cpd25981_e0[u]	-1000	0	0	0
+L-rhamnitol	rxn29455	cpd25982	EX_cpd25982_e0[u]	-1000	0	0	0
+"3,5-tetradecadienoate"	rxn29361	cpd26000	EX_cpd26000_e0[u]	-1000	0	0	0
+tetraacyldisaccharide-4-phosphate	rxn29457	cpd26060	EX_cpd26060_e0[u]	-1000	0	0	0
+"beta-D-galactopyranoside, 1-methylethyl"	rxn29458	cpd26065	EX_cpd26065_e0[u]	-1000	0	0	0
+2-deoxy-2-fluoro-beta-D-galactopyranosyl fluoride	rxn29459	cpd26068	EX_cpd26068_e0[u]	-1000	0	0	0
+2-aminogalactopyranose	rxn29460	cpd26069	EX_cpd26069_e0[u]	-1000	0	0	0
+"1,5-anhydro-2-deoxy-D-lyxo-hex-1-enitol"	rxn29461	cpd26070	EX_cpd26070_e0[u]	-1000	0	0	0
+D-Glucose	rxn29881	cpd26821	EX_cpd26821_e0[u]	-1000	-0.0625	-0.15625	-0.29486781
+alpha-D-talose	rxn29464	cpd26829	EX_cpd26829_e0[u]	-1000	0	0	0
+DIACYLGLYCEROL	rxn29884	cpd26855	EX_cpd26855_e0[u]	-1000	-1.19497083	-1.19497083	-2.09119895
+ferric enterobactin	rxn28564	cpd27027	EX_cpd27027_e0[u]	-1000	0	0	0
+Fe-siderophores	rxn27346	cpd27062	EX_cpd27062_e0[u]	-1000	0	0	0
+deltaH	rxn29781	cpd27228	EX_cpd27228_e0[u]	-1000	0	0	0
+Hexoses	rxn29875	cpd27249	EX_cpd27249_e0[u]	-1000	0	0	0
+beta-L-galactose	rxn38519	cpd27360	EX_cpd27360_e0[u]	-1000	0	0	0
+beta-L-lyxopyranose	rxn29475	cpd27365	EX_cpd27365_e0[u]	-1000	0	0	0
+L-selenocysteine	rxn29220	cpd27371	EX_cpd27371_e0[u]	-1000	0	0	0
+Long-Chain-Fatty-Acids	rxn28605	cpd27424	EX_cpd27424_e0[u]	-1000	0	0	0
+Long-Chain-Fatty-Acids	rxn29173	cpd27424	EX_cpd27424_e0[u]	-1000	0	0	0
+Monosaccharides	rxn29916	cpd27532	EX_cpd27532_e0[u]	-1000	0	0	0
+Myristoyl-ACPs	rxn39076	cpd27551	EX_cpd27551_e0[u]	-1000	0	0	0
+N-acetyl-beta-D-mannosamine	rxn29482	cpd27563	EX_cpd27563_e0[u]	-1000	0	0	0
+N-ACETYLNEURAMINATE	rxn28539	cpd27569	EX_cpd27569_e0[u]	-1000	0	0	0
+Nucleotides	rxn29319	cpd27689	EX_cpd27689_e0[u]	-1000	0	0	0
+OLIGOPEPTIDES	rxn29264	cpd27704	EX_cpd27704_e0[u]	-1000	0	0	0
+Oligosaccharides	rxn29876	cpd27724	EX_cpd27724_e0[u]	-1000	0	0	0
+Phospholipids	rxn29737	cpd27865	EX_cpd27865_e0[u]	-1000	0	0	0
+Polyamines	rxn29878	cpd27894	EX_cpd27894_e0[u]	-1000	0	0	0
+RIBOSE	rxn29247	cpd28037	EX_cpd28037_e0[u]	-1000	0	0	0
+Sugar	rxn29882	cpd28198	EX_cpd28198_e0[u]	-1000	0	0	0
+"butane, 2,3,4-trihydroxy-, (R*,S*)-"	rxn29491	cpd28226	EX_cpd28226_e0[u]	-1000	0	0	0
+Anions	rxn29731	cpd28697	EX_cpd28697_e0[u]	-1000	0	0	0
+xylogalacturonan	rxn29380	cpd28726	EX_cpd28726_e0[u]	-1000	0	0	0
+Cu	rxn29531	cpd28735	EX_cpd28735_e0[u]	-1000	0	0	0
+(+)-Xylose	rxn28577	cpd28748	EX_cpd28748_e0[u]	-1000	0	0	0
+Carbohydrates	rxn28565	cpd29189	EX_cpd29189_e0[u]	-1000	0	0	0
+Cations	rxn29669	cpd29190	EX_cpd29190_e0[u]	-1000	0	0	0
+Groups	rxn29497	cpd29299	EX_cpd29299_e0[u]	-1000	0	0	0
+Hemes	rxn29726	cpd29306	EX_cpd29306_e0[u]	-1000	0	0	0
+Hydrophilic-Solute-Or-Ion-LT-600Da	rxn28616	cpd29307	EX_cpd29307_e0[u]	-1000	0	0	0
+iduronate	rxn29472	cpd29309	EX_cpd29309_e0[u]	-1000	0	0	0
+linear alpha-glucan	rxn29480	cpd29323	EX_cpd29323_e0[u]	-1000	0	0	0
+Metal-Ions	rxn29252	cpd29402	EX_cpd29402_e0[u]	-1000	0	0	0
+Mono-Di-And-Tri-Saccharides-LT-600Da	rxn28617	cpd29405	EX_cpd29405_e0[u]	-1000	0	0	0
+Multidrug	rxn29251	cpd29406	EX_cpd29406_e0[u]	-1000	0	0	0
+NUCLEOTIDE-SUGARS	rxn29889	cpd29423	EX_cpd29423_e0[u]	-1000	0	0	0
+Peptide-Antibiotics	rxn29078	cpd29538	EX_cpd29538_e0[u]	-1000	0	0	0
+D-erythro-pentulose	rxn29488	cpd29557	EX_cpd29557_e0[u]	-1000	0	0	0
+Sugar-alcohols	rxn29917	cpd29580	EX_cpd29580_e0[u]	-1000	0	0	0
+Unspecified-Ion-Or-Solute	rxn28607	cpd29618	EX_cpd29618_e0[u]	-1000	0	0	0
+fluoroquinolone deriv	rxn30483	cpd29714	EX_cpd29714_e0[u]	-1000	0	0	0
+C07114	rxn33792	cpd29942	EX_cpd29942_e0[u]	-1000	0	0	0
+C07114	rxn33796	cpd29942	EX_cpd29942_e0[u]	-1000	0	0	0
+C07114	rxn33797	cpd29942	EX_cpd29942_e0[u]	-1000	0	0	0
+C07114	rxn33799	cpd29942	EX_cpd29942_e0[u]	-1000	0	0	0
+C11348	rxn32267	cpd29951	EX_cpd29951_e0[u]	-1000	0	0	0
+C11348	rxn32273	cpd29951	EX_cpd29951_e0[u]	-1000	0	0	0
+C11348	rxn32276	cpd29951	EX_cpd29951_e0[u]	-1000	0	0	0
+C11348	rxn32277	cpd29951	EX_cpd29951_e0[u]	-1000	0	0	0
+C07118	rxn33424	cpd29954	EX_cpd29954_e0[u]	-1000	0	0	0
+C07118	rxn33427	cpd29954	EX_cpd29954_e0[u]	-1000	0	0	0
+C07118	rxn33429	cpd29954	EX_cpd29954_e0[u]	-1000	0	0	0
+C07118	rxn33430	cpd29954	EX_cpd29954_e0[u]	-1000	0	0	0
+Extracellualr Acetate	rxn34074	cpd29968	EX_cpd29968_e0[u]	-1000	0	0	0
+Extracellular Carbon Dioxide	rxn34071	cpd29976	EX_cpd29976_e0[u]	-1000	0	0	0
+Extracellular Bicarbonate	rxn34072	cpd29993	EX_cpd29993_e0[u]	-1000	0	0	0
+Extracellular Nitrate	rxn34078	cpd29998	EX_cpd29998_e0[u]	-1000	0	0	0
+Extracellular Oxygen	rxn34073	cpd29999	EX_cpd29999_e0[u]	-1000	0	0	0
+Extracellular Sulfate	rxn34075	cpd30009	EX_cpd30009_e0[u]	-1000	0	0	0
+hv	rxn34294	cpd30058	EX_cpd30058_e0[u]	-1000	0	0	0
+beta-D-Fructose	rxn28572	cpd30321	EX_cpd30321_e0[u]	-1000	0	0	0
+octadecenoate (18:1(9Z))	rxn34368	cpd30412	EX_cpd30412_e0[u]	-1000	0	0	0
+"Sulfoquinovosyldiacylglycerol (1-(11Z)-octadecenoyl,2-hexadecanoyl, 18:1(11Z)/16:0)"	rxn34407	cpd30554	EX_cpd30554_e0[u]	-1000	0	0	0
+"Sulfoquinovosyldiacylglycerol (1-(9Z)-octadecenoyl,2-hexadecanoyl, 18:1(9Z)/16:0)"	rxn34408	cpd30556	EX_cpd30556_e0[u]	-1000	0	0	0
+alpha-L-arabinopyranose	rxn29375	cpd30755	EX_cpd30755_e0[u]	-1000	0	0	0
