@@ -44,4 +44,4 @@ for fullRoute, _ in site.site_app_bar[1:]:
 
 
 if __name__ == '__main__':
-    site.launch(host='0.0.0.0', port=int(os.environ.get('PORT', '5000')))
+    site.launch()

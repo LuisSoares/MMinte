@@ -110,31 +110,31 @@
 /*
 * App tabs
 */
+		.apptab-links a{
+		width: 90px;
+		height: 30px;
+		background:#00961e;
+		font-size: 18px;
+		border: 0px solid;
+        border-radius: 10px;
+		padding-top:1em;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
 
-
+		
+		.apptab-links li:hover {
+		
+		}
 		.apptab-links a:hover {
 		background:#66c078;
 		text-decoration:none;
 		}
-
         
-        
-        .apptab-links a {
-		margin:0.5em;
-		border-radius: 10px;
-		font-family: Arial, Helvetica, sans-serif;
-		display:inline-block;
-		background:#00961e;
-		width: 6em;
-		height: 2.5em;
-		text-align: center;
-		vertical-align: middle;
-		font-weight:100;
-		color:#000000;
-		text-decoration: none;
-		transition:all linear 0.15s;
+        .apptab-links li {
+		
 		}
-
+		
 		
         
         table.sortable

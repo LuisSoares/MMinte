@@ -7,7 +7,7 @@ cherrypy.config.update({"response.timeout":1000000,'log.access_file': '../suppor
                         'log.error_file': '../supportFiles/logError_file.txt','log.screen':False})
 
 class Widget1(server.App):
-    title = '<h1><font color=black size=4em>Widget 1</font></h1>'
+    title = 'Widget 1'
     
     inputs = [{ "type":"text",
                 "key":"text1",

@@ -11,43 +11,43 @@ With help from Luis Mendes Soares, Harvard Medical School
 #new stuff
 import cherrypy
 class custom_root(server.Root):
-	@cherrypy.expose
-	def image1(self, **args):
-		import io
-		buffer = io.BytesIO()
-		ROOT_DIR = os.path.dirname(os.path.realpath('static/images/3485812-14.jpg'))
-		f = open(ROOT_DIR+'/3485812-14.jpg','rb' )
-		buffer.write(f.read())
-		f.close()
-		return buffer.getvalue()
-	@cherrypy.expose
-	def image2(self, **args):
-		import io
-		buffer = io.BytesIO()
-		ROOT_DIR = os.path.dirname(os.path.realpath('static/images/flow.jpg'))
-		f = open(ROOT_DIR+'/flow.jpg','rb' )
-		buffer.write(f.read())
-		f.close()
-		return buffer.getvalue()
+    @cherrypy.expose
+    def image1(self, **args):
+        import io
+        buffer = io.BytesIO()
+        ROOT_DIR = os.path.dirname(os.path.realpath('static/images/3485812-14.jpg'))
+        f = open(ROOT_DIR+'/3485812-14.jpg','rb' )
+        buffer.write(f.read())
+        f.close()
+        return buffer.getvalue()
+    @cherrypy.expose
+    def image2(self, **args):
+        import io
+        buffer = io.BytesIO()
+        ROOT_DIR = os.path.dirname(os.path.realpath('static/images/flow.jpg'))
+        f = open(ROOT_DIR+'/flow.jpg','rb' )
+        buffer.write(f.read())
+        f.close()
+        return buffer.getvalue()
 
 server.Root=custom_root
 #end of new stuff
-		
+        
 class Index(server.App):
-    title='<h1><font color=black size=4em>Intro</font></h1>'
+    title='Intro'
     outputs = [{"output_type": "html",
                 "output_id": "Index",
                 "on_page_load": True}]
     
     def getCustomCSS(self):
-		ROOT_DIR = os.path.dirname(os.path.realpath('static/custom_styleMMinte.css'))
-		with open(ROOT_DIR + '/custom_styleMMinte.css') as style:
-			return style.read()+'''\n .left-panel{display: none;}.right-panel{width:100%;margin:px;background: white;padding: 0px}'''
+        ROOT_DIR = os.path.dirname(os.path.realpath('static/custom_styleMMinte.css'))
+        with open(ROOT_DIR + '/custom_styleMMinte.css') as style:
+            return style.read()+'''\n .left-panel{display: none;}.right-panel{width:100%;margin:px;background: white;padding: 0px}'''
     
     
     def getHTML(self, params):
 
-		return '''
+        return '''
 <!-- Index page for MMinte app -->
 
     <head>
@@ -59,7 +59,7 @@ class Index(server.App):
         
         
         body {background-color: #f4f4f4;
-        		padding: 2em;
+                padding: 2em;
                 margin-left:1em;
                 margin-right:1em;
                 margin-top:1em;
@@ -134,7 +134,7 @@ class Index(server.App):
         a:active {text-decoration: underline;
                 }    
     </style>
-	
+    
 
     <body>
     
@@ -271,5 +271,5 @@ class Index(server.App):
 import cherrypy 
 
 if __name__ == '__main__':
-	app = Index()
-	app.launch()
+    app = Index()
+    app.launch()

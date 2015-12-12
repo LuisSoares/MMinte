@@ -26,11 +26,14 @@ def getModels(id):
     
     # Send the request to the server and get back a response.
     #added exception because the website gave an error and just stopped. I'll check in the morning how this looks. I'm not sure did it right (Lena)
-
-    response = requests.post(args.url, data=json.dumps(input), headers=headers)
+    
+    
+    requests.packages.urllib3.disable_warnings()
+    response = requests.post(args.url, data=json.dumps(input), headers=headers, verify = False)
             
     if response.status_code != requests.codes.OK:
         response.raise_for_status()
+        
     output = json.loads(response.text)['result'][0] # Get the output from the method in the response
             
     # Create the body of the request for the export_model() method.

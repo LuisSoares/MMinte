@@ -7,11 +7,11 @@ cherrypy.config.update({"response.timeout":1000000,'log.access_file': '../suppor
                         'log.error_file': '../supportFiles/logError_file.txt','log.screen':False})
 
 class Widget5(server.App):
-    title = '<h1><font color=black size=4em> Widget 5 </font></h1>'
+    title = 'Widget 5'
     
     inputs = [{ "type":"dropdown",
                 "key":"diet",
-                "label" : "<font size=4pt>Now we're going to calculate growth rates for the species in each community. Because we will want to know how the presence of another species in the community affect the growth of a particular organism, we will estimate how the species growth when in the absence and presence of another species in the community under particular nutritional conditions. <\font>. <br>      <br> <font size=3pt> You can determine which kind of metabolites are available for the organisms by choosing a diet </font>",
+                "label" : "<font size=4pt>Now we're going to calculate growth rates for the species in each community. Because we will want to know how the presence of another species in the community affect the growth of a particular organism, we will estimate how the species growth when in the absence and presence of another species in the community under particular nutritional conditions. </font>. <br>      <br> <font size=3pt> You can determine which kind of metabolites are available for the organisms by choosing a diet </font>",
                 "options" : [ {"label": "Complete", "value":"Complete"},
                             {"label": "High Fiber", "value":"High Fiber"},
                             {"label": "Protein", "value":"Protein"},

@@ -9,7 +9,7 @@ cherrypy.config.update({"response.timeout":10000000,'log.access_file': '../suppo
                         'log.error_file': '../supportFiles/logError_file.txt','log.screen':False})
 
 class Widget3(server.App):
-    title = '<h1><font color=black size=4em> Widget 3 </font></h1>'
+    title = 'Widget 3 '
     
     inputs = [{ "type":"text",
                 "key":"genomeIDs",
@@ -45,20 +45,21 @@ class Widget3(server.App):
         
          
         for i in listOfModels:
-            cherrypy.log("will now see if %s is in the folder already" %i)
+            cherrypy.log("Will now see if %s is in the folder already" %i)
             i = i.rstrip()
             if (i + '.sbml') not in existingModels:
-                cherrypy.log("the model %s isn't in the folder, so we're going to fetch it from ModelSeed" %i)
+                cherrypy.log("Whe model %s isn't in the folder, so we're going to fetch it from ModelSeed" %i)
                 try:
                     cherrypy.log("Started getting model for genome %s" %i)
                     getModels(i)
-                    cherrypy.log("We finished getting the metabolic models for our organisms of interest from ModelSEED.")
+                    cherrypy.log("We finished getting the metabolic model for genome %s from ModelSEED." %i)
                 except:
-                    cherrypy.log("We were unable to run getModels and get the metabolic models we wanted. We'll try again.")
+                    cherrypy.log("We were either unable to run getModels or were unable to get the metabolic models we wanted from ModelSEED. We'll keep going for now and try the next model.")
                     #return "Sorry something's wrong. Make sure the path to your file is correct."
                     pass
+                continue
             else:
-                cherrypy.log("the model %s was already in the folder" %i)
+                cherrypy.log("The model %s was already in the folder" %i)
         
         ids = []
         idsFile = open('../userOutput/ids4MS.txt','r')

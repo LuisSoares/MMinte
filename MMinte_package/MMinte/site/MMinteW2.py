@@ -7,7 +7,7 @@ cherrypy.config.update({"response.timeout":1000000,'log.access_file': '../suppor
                         'log.error_file': '../supportFiles/logError_file.txt','log.screen':False})
 
 class Widget2(server.App):
-    title = '<h1><font color=black size=4em> Widget 2 </font></h1>'
+    title = 'Widget 2'
     
     inputs = [{ "type":"text",
                 "key":"fastaFile",
