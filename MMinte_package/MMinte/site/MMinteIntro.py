@@ -192,7 +192,7 @@ class Index(server.App):
             <br>
             
             <li>
-        <ins>Widget 3</ins> - Metabolic models for each genome ID are reconstructed and gap-filled using ModelSEED and downloaded to the user’s local machine.
+        <ins>Widget 3</ins> - Metabolic models for each genome ID are reconstructed and gap-filled using ModelSEED and downloaded to the user's local machine.
 
             </li>
 
@@ -217,7 +217,7 @@ class Index(server.App):
             <br>
             
             <li>
-        <ins>Widget 7</ins> - A network is plotted with D3.js6 using the initial information of associations between the pairs of OTUs provided by the used, and the kinds of interactions predicted to be occurring.
+        <ins>Widget 7</ins> - A network is plotted with D3.js using the initial information of associations between the pairs of OTUs provided by the used, and the kinds of interactions predicted to be occurring.
             </li>
     <br>
     
@@ -226,6 +226,11 @@ class Index(server.App):
         
         
     </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
     <p style="text-align:center">
         <strong><font color=#00961E>MMinte</strong></font> was developed by scientists and developers at the Center for Individualized Medicine at the Mayo Clinic and Harvard Medical School. 
@@ -238,7 +243,7 @@ class Index(server.App):
     
     <h2 style="text-align:center"><ins>Contact and Suggestions:</ins></h2>
 
-    <p class="contact"><a href="mailto:microbialmetabolicinteractions@gmail.com"><strong><font color=#00961E>MMinte</strong></font>'s awesome team!</a></p>
+    <p class="contact">Mail <a href="mailto:microbialmetabolicinteractions@gmail.com"><strong><font color=#00961E>MMinte</strong></font>'s awesome team!</a></p>
     
     </div>
     
