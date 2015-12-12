@@ -3,12 +3,7 @@ import io
 import os
 
 
-'''
-With help from Luis Mendes Soares, Harvard Medical School
-'''
 
-
-#new stuff
 import cherrypy
 class custom_root(server.Root):
     @cherrypy.expose
@@ -31,7 +26,7 @@ class custom_root(server.Root):
         return buffer.getvalue()
 
 server.Root=custom_root
-#end of new stuff
+
         
 class Index(server.App):
     title='Intro'
@@ -149,10 +144,7 @@ class Index(server.App):
         The least you need to know:
     </h2>
     <p>
-        Systems Biology is an expanding field of research in the biological sciences. Its integrative approach requires the 
-        collaboration between experts, and the use of tools, from fields that traditionally focus on specific levels of biological complexity.
-        Enter <strong><font color=#00961E>MMinte - Microbial Metabolic interactions -</strong></font>, an application that allows researchers working on microbiome projects to predict the kinds of
-        pairwise interactions between identified members of a community based on their metabolic models. With <strong><font color=#00961E>MMinte</strong></font>, users need only provide 
+        The microbiome is an expanding field of research in the biological sciences. Its integrative approaches have mostly included 16S rDNA surveys. These surveys have been used to generate associative community network topologies, but do not assess the mechanistic basis of these associations. Here, we present <strong><font color=#00961E>MMinte</strong></font> a tool for assessing the microbial metabolic interactions within a microbiome network.  With <strong><font color=#00961E>MMinte</strong></font>, users need only provide 
         a table containing pairs of operational taxonomic units (OTUs) that will be the focus of the analysis and representative sequences for those OTUs. 
         <strong><font color=#00961E>MMinte</strong></font> will then perform a series of sequential tasks to assess the kind of ecological interactions that are potentially 
         occurring between each two members of the community. The final output is a network diagram representing these interactions.
@@ -186,63 +178,46 @@ class Index(server.App):
         
  
             <li>
-        <ins>Widget 1</ins> - Here, a table containing pairs of OTUs with some measure of association and a fasta file with sequences of representative 
-        OTUs are used to create a .fasta file containing only16S dRNA sequences of the representative organisms that will be used in the subsequent 
-        analysis.
+        <ins>Widget 1</ins> - Using information about pairs of operational taxonomic units (OTUs) that are associated to some degree and a list of 16S rDNA sequences for the OTUs in a particular community, a file is created containing only the sequences for representative OTUs significant to the analyses.
+ 
             </li>
             
             <br>
             
             <li>
-        <ins>Widget 2</ins> - A BLAST analysis against a local 16S dRNA database is run on the sequences present in the .fasta file with the OTU sequences to 
-        be used in the analysis. This database was created from all the 16S dRNA sequences present in the PATRIC database as of November 2015 using 
-        the NCBI command line tools (REF), and is provided to the user. It can be found in the folder /supportFiles. Various files are created from 
-        this execution of this widget. Of note are the following: ids4MS.txt contains the NCBI Genome IDs for the organisms identified in the blast 
-        analysis; pairsList.txt contains the pairs of organisms for which 2-species community models will be creates in Widget 4. Please note that 
-        because several OTUs may be identified as belonging to the same species, the number of pairs listed will be smaller than the number of pairs 
-        listed in the initial file provided by the user containing associated OTUs. The file cleanBlastOutput.txt lists the NCBI genome ID assigned 
-        to each OTU provided by the user as well as the percent similarity between the genomic sequence of the particular OTU and the genome it was 
-        assigned to.
+        <ins>Widget 2</ins> - The representative OTUs are identified and assigned a genome ID using BLAST and a local database containing the 16S rDNA sequences of species with whole genome sequences.
+
             </li>
             
             <br>
             
             <li>
-        <ins>Widget 3</ins> - In this step, the PATRIC website is accessed and the ModelSEED tools are used to reconstruct the models of the genomes listed in 
-        the file ids4MS.txt. Every model reconstructed is then downloaded to the local machine in the Systems Biology Markup Language format (.sbml). 
+        <ins>Widget 3</ins> - Metabolic models for each genome ID are reconstructed and gap-filled using ModelSEED and downloaded to the user’s local machine.
+
             </li>
 
             <br>
             
             <li>
-        <ins>Widget 4</ins> - The individual species models downloaded from PATRIC/ModelSEED are then used to create 2-species community models following the 
-        directions in (REF). 
+        <ins>Widget 4</ins> - Metabolic models of 2- species communities are created using COBRA Toolbox for the python computational framework (COBRApy).
             </li>
             
             <br>
             
             <li>
-        <ins>Widget 5</ins> - Following the procedure described in (REF), the python library cobrapy (REF) is then used to estimate the growth rates of each 
-        species in the presence and absence of another species in the community for all 2-species community models created in the previous model. 
-        Because the growth rate needs to be estimated under particular nutritional conditions, a Diets.txt file containing four kinds of diet is 
-        provided to the user (in supportFiles/). The default diet used in the analysis is the complete diet, however, the user may choose between 
-        this and "Western Diet", "High Fiber", "Protein Diet" or "Other". The last is so be defined by the user.
+        <ins>Widget 5</ins> - Under defined nutritional conditions, the growth rates of each species in isolation and when in the presence of another species in the community are estimated.
             </li>
         
             <br>
             
             <li>
-        <ins>Widget 6</ins> - The growth rate values of each species in the full model (containing both species) or growing in isolation are then used to 
-        assess the kind of interaction occurring between the species following the definitions listed in (REF).
+        <ins>Widget 6</ins> - The kinds of interactions occurring between the pairs of species on the nutritional conditions defined in Widget 5 are predicted. The interactions are either positive (commensalism, mutualism) or negative (parasitism, amensalism, competition).
             </li>
         
             <br>
             
             <li>
-        <ins>Widget 7</ins> - A .json file is created to be used for plotting using D3 (REF). The information about the genetic similarity between the OTUs 
-        provided by the user and the genome it was identified as is used to characterize the nodes of the network diagram. Information about the 
-        level of association and kind of interactions predicted to be occurring between each pair of species is used to determine the edges between 
-        each node in the network.
+        <ins>Widget 7</ins> - A network is plotted with D3.js6 using the initial information of associations between the pairs of OTUs provided by the used, and the kinds of interactions predicted to be occurring.
             </li>
     <br>
     
@@ -253,14 +228,17 @@ class Index(server.App):
     </p>
     
     <p style="text-align:center">
-        <strong><font color=#00961E>MMinte</strong></font> was developed by the Chia Lab at the Center for Individualized Medicine at the Mayo Clinic.
+        <strong><font color=#00961E>MMinte</strong></font> was developed by scientists and developers at the Center for Individualized Medicine at the Mayo Clinic and Harvard Medical School. 
     </p>
 
+	<p style="text-align:center">
+        Please note that <strong><font color=#00961E>MMinte</strong></font> is still being actively developed. If you want us to let you know of updates, just shoot us an email. Also, a manuscript has been submitted for publication in a scientific journal, so if you give us your contact, we can let you know how that goes!
+    </p>
     
     
     <h2 style="text-align:center"><ins>Contact and Suggestions:</ins></h2>
 
-    <p class="contact"><a href="mailto:microbialmetabolicinteractions@gmail.com"><strong><font color=#00961E>MMinte</strong></font>'s awesome developers</a></p>
+    <p class="contact"><a href="mailto:microbialmetabolicinteractions@gmail.com"><strong><font color=#00961E>MMinte</strong></font>'s awesome team!</a></p>
     
     </div>
     
