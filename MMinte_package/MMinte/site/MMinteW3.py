@@ -48,7 +48,7 @@ class Widget3(server.App):
             cherrypy.log("Will now see if %s is in the folder already" %i)
             i = i.rstrip()
             if (i + '.sbml') not in existingModels:
-                cherrypy.log("Whe model %s isn't in the folder, so we're going to fetch it from ModelSeed" %i)
+                cherrypy.log("The model %s isn't in the folder, so we're going to fetch it from ModelSeed" %i)
                 try:
                     cherrypy.log("Started getting model for genome %s" %i)
                     getModels(i)
