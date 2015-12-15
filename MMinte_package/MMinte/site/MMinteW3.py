@@ -63,7 +63,7 @@ class Widget3(server.App):
         
         ids = []
         idsFile = open('../userOutput/ids4MS.txt','r')
-        idsFile.readline()
+        
         
         for i in idsFile:
             ids.append(i)
