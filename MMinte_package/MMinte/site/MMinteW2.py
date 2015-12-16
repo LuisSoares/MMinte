@@ -12,11 +12,11 @@ class Widget2(server.App):
     inputs = [{ "type":"text",
                 "key":"fastaFile",
                 "label" : "<font size=4pt>Tell me which file has the sequences you want to get the genome ID for.</font>  <br>   <br> <font size=3p> If you don't change the file name, it will just use the output from the previous Widget </font>",
-                "value":"reprOTUsToUse.fasta"},
+                "value":"../userOutput/reprOTUsToUse.fasta"},
               { "type":"text",
                 "key":"corrsFile",
                 "label" : "<font size=3pt>Remind me again which file has the correlations between OTUs...</font>",
-                "value":"corrs.txt"}
+                "value":"../userFiles/corrs.txt"}
               ]
     
     outputs = [{"type":"html",
