@@ -60,6 +60,7 @@ class Widget3(server.App):
                 continue
             else:
                 cherrypy.log("The model %s was already in the folder" %i)
+                continue
         
         ids = []
         idsFile = open('../userOutput/ids4MS.txt','r')
