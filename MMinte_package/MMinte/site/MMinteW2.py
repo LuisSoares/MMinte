@@ -3,7 +3,7 @@ from widget2 import blastSeqs, listTaxId4ModelSEED,otuGenomeIDCorrTable, uniq
 import os
 
 import cherrypy
-cherrypy.config.update({"response.timeout":1000000,'log.access_file': '../supportFiles/logAccess_file.txt',
+cherrypy.config.update({"response.timeout":1000000,'log.access_file':'../supportFiles/logAccess_file.txt',
                         'log.error_file': '../supportFiles/logError_file.txt','log.screen':False})
 
 class Widget2(server.App):
@@ -12,7 +12,11 @@ class Widget2(server.App):
     inputs = [{ "type":"text",
                 "key":"fastaFile",
                 "label" : "<font size=4pt>Tell me which file has the sequences you want to get the genome ID for.</font>  <br>   <br> <font size=3p> If you don't change the file name, it will just use the output from the previous Widget </font>",
-                "value":"../userOutput/reprOTUsToUse.fasta"}
+                "value":"reprOTUsToUse.fasta"},
+              { "type":"text",
+                "key":"corrsFile",
+                "label" : "<font size=3pt>Remind me again which file has the correlations between OTUs...</font>",
+                "value":"corrs.txt"}
               ]
     
     outputs = [{"type":"html",
@@ -35,6 +39,7 @@ class Widget2(server.App):
     def getHTML(self,params):
         try:
             seqsToBlast = params['fastaFile']
+            corrs = params['corrsFile']
             try:
                 blastSeqs(seqsToBlast)
                 cherrypy.log("We finished blasting the sequences against the database with function blastSeqs.")
@@ -53,7 +58,7 @@ class Widget2(server.App):
             
             
             try:    
-                otuGenomeIDCorrTable()
+                otuGenomeIDCorrTable(corrs)
                 cherrypy.log("We finished creating a table with the correlations between the user gave in the beginning with the added information about the genomeID assigned to that particular OTU.")
             except:
                 cherrypy.log("We were unable to run otuGenomeIDCorrTable.")

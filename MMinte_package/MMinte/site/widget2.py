@@ -114,12 +114,12 @@ def uniq(input):
     be added to this table. That file is also required to create the pairs of models.
 '''
 
-def otuGenomeIDCorrTable():
+def otuGenomeIDCorrTable(corrsFile):
     
     '''
     @note: get the files that contain the information to create the table
     '''
-    corrsTableFile = open('../userFiles/corrs.txt', 'r')
+    corrsTableFile = open(corrsFile, 'r')
     blastOutputFile = open('../userOutput/cleanBlastOutput.txt', 'r')
 
 
@@ -168,7 +168,7 @@ def otuGenomeIDCorrTable():
 
     for i in corrsTable:
         for j in blastOutput:
-            if int(i[0]) == int(j[1]):
+            if str(i[0]) == str(j[1]):
                 new_item = [i[0], j[2], j[0], i[1], i[2]]
                 pairsListTemp.append(new_item)
             
@@ -182,7 +182,7 @@ def otuGenomeIDCorrTable():
 
     for i in pairsListTemp:
         for j in blastOutput:
-            if int(i[3]) == int(j[1]):
+            if str(i[3]) == str(j[1]):
                 finalTableTemp.append([i[0], i[1], i[2], i[3], j[2], j[0], i[4]])
                 pairsListTemp2.append([i[1],j[2]])
             
