@@ -18,6 +18,7 @@ tar xfz ncbi-blast-${VERSION}+-x64-win64.tar.gz
 # Cleanup.
 rm ncbi-blast-${VERSION}+-x64-win64.tar.gz
 
+pip install numpy
 pip install -r requirements.txt
 
 
