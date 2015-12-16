@@ -1,5 +1,7 @@
 ### MMinte is still under development, and may have bugs. We really appreciate if you could let us know what they are to microbialmetabolicinteractions@gmail.com or raise an issue here on github. With your help and feedback we will be able to make MMinte run smoothly in no time. You can also let us know of functionalities you think should be part of MMinte, and we will make sure to add them to future versions.
 
+### ModelSEED has been having problems. We are doing our best to coordinate the changes occurring with MMinte. We hope to have a solution soon.
+
 
 __MMinte__ is an application that uses metabolic models of the species present in a community under particular nutritional conditions to infer what are the types of interactions occurring between pairs of species. The user provides data about associations between pairs of organisms that allows the creation of a visual network of associations and 16S rDNA sequences for representative OTUs and MMinte assigns a type of interaction to each link between the organisms. Our application is composed of seven widgets that run sequentially, with each widget utilizing as the default input the file created in the previous widget. While MMinte may be run as a streamlined pipeline, due to its compartmentalized nature, the user is given the ability to better control the full analysis. The user may start the application at any of the seven widgets, as long as the data provided has the adequate structure. Furthermore, the user can access the output files of each widget, and verify the quality of the data produced at each step of the analysis, as well as explore it with alternative tools.
 
@@ -27,7 +29,7 @@ If you have neither __Python 2.7__ or __pip__ installed you can either install t
 
 #How do I setup MMinte?
 1. Download the __MMinte__ package. To do this go to http://github.com/mendessoares/MMinte and click on Download ZIP button on the right side of the screen. This will (likely) download the ZIP file to your Downloads folder.
-2. Your Downloads folder now has a MMinte_package.zip file. You can uncompress this file by double clicking the file. This will create the folder MMinte_package on your downloads folder. Move this folder to where you would like to keep it permanently. I suggest you move it to your Documents folder. You can do this by dragging the folder to Documents folder, or through command line. Here's how to do the latest. Open terminal, then type: ``cd ~/Downloads/`` and press Enter. Then type ``mv MMinte_package/ ~/Documents/`` and press Enter. The MMinte_package folder should now be on your Documents folder.
+2. Your Downloads folder now has a MMinte_package.zip file. You can uncompress this file by double clicking the file. This will create the folder MMinte_package on your downloads folder. Move this folder to where you would like to keep it permanently. I suggest you move it to your Documents folder. You can do this by dragging the folder to Documents folder, or through command line. Here's how to do the latest. Open terminal, then type: ``cd ~/Downloads/MMinte-master`` and press Enter. Then type ``mv MMinte_package/ ~/Documents/`` and press Enter. The MMinte_package folder should now be on your Documents folder.
 2. Use the terminal on your machine to go to the MMinte_package folder by typing ``cd ~/Documents/MMinte_package/``
 3. Go to the __MMinte__ folder by typing ``cd MMinte``
 4. Create a virtual environment by typing ``virtualenv env``.
@@ -36,7 +38,6 @@ If you have neither __Python 2.7__ or __pip__ installed you can either install t
 7. We will now install all the dependencies required for __MMinte__ to run. If you are working on a MacOS system, type ``bash install-requiredPKGMacOS.sh`` . If you are working on a Linux system, type ``bash install-requiredPKGLinux.sh`` . Wait for everything to get installed. The Python module __libsbml__ takes quite a while to get installed, so the whole process takes around 10 minutes on an average speed internet connection. If no warnings show up on the terminal window when the prompt in the terminal (``$``) shows up, then all was successfully installed. If you get an error message from BioPython saying that numpy is not installed, don't worry. numpy is not needed for __MMinte__ to work.
 8. You are now ready to run __MMinte__ from your virtual environment.
 10. If you don't want to run __MMinte__ at this point, you can deactivate your virtual environment by typing ``deactivate`` and closing the terminal. If you want to go ahead and run __MMinte__, go to the next section, __How do I run MMinte__  and start from step 4.
-
 
 #How do I run MMinte?
 1. Open the terminal window on your computer.
