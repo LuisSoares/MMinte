@@ -1,4 +1,4 @@
-def getModels(id, url='https://p3.theseed.org/services/ProbModelSEED', runapp=True):
+def getModels(id, url='https://p3.theseed.org/services/ProbModelSEED', runapp=True, wsurl='https://p3.theseed.org/services/Workspace'):
     
     print id
     import json
@@ -30,7 +30,7 @@ def getModels(id, url='https://p3.theseed.org/services/ProbModelSEED', runapp=Tr
         
     jobid = json.loads(response.text)['result'][0] # Get the output from the method in the response
     
-    # Wait for the job to finish.
+    # Wait for the job to finish when model reconstruction is run as an app.
     if runapp:
         input['method'] = 'ProbModelSEED.CheckJobs'
         input['params'] = { 'jobs': [ jobid ] }
@@ -56,13 +56,17 @@ def getModels(id, url='https://p3.theseed.org/services/ProbModelSEED', runapp=Tr
         print task
     
     # Create the body of the request for the export_model() method.
-    input['method'] = 'ProbModelSEED.export_model'
-    input['params'] = { 'model': '/mendessoares/home/models/'+id+'_model', 'format': 'sbml' }
+    # When ModelSEED server is reliable we could switch back to this method.
+#     input['method'] = 'ProbModelSEED.export_model'
+#     input['params'] = { 'model': '/mendessoares/home/models/'+id+'_model', 'format': 'sbml' }
     
-    # Send the request to the server and get back a response.
-            
+    # Create the body of the request for the get() method.
+    input['method'] = 'Workspace.get'
+    input['params'] = { 'objects': [ '/mendessoares/home/models/.'+id+'_model/'+id+'_model.sbml' ] }
+    
+    # Send the request to the server and get back a response.            
     #added exception because the website gave an error and just stopped. I'll check in the morning how this looks. I'm not sure did it right (Lena)
-    response = requests.post(url, data=json.dumps(input), headers=headers)
+    response = requests.post(wsurl, data=json.dumps(input), headers=headers)
             
     if response.status_code != requests.codes.OK:
         response.raise_for_status()
@@ -70,5 +74,5 @@ def getModels(id, url='https://p3.theseed.org/services/ProbModelSEED', runapp=Tr
             
     # Store the SBML text in a file.    
     with open('../userOutput/models/%s.sbml' %id, 'w') as handle: # Use the genome ID as the file name
-        handle.write(output)
+        handle.write(output[0][1]) # File data is in the second element of the returned tuple
             
