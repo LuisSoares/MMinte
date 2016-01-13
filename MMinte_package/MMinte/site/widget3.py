@@ -58,21 +58,27 @@ def getModels(id, url='https://p3.theseed.org/services/ProbModelSEED', runapp=Tr
     # Create the body of the request for the export_model() method.
     # When ModelSEED server is reliable we could switch back to this method.
 #     input['method'] = 'ProbModelSEED.export_model'
-#     input['params'] = { 'model': '/mendessoares/home/models/'+id+'_model', 'format': 'sbml' }
+#     input['params'] = { 'model': '/mendessoares/modelseed/'+id+'_model', 'format': 'sbml' }
     
     # Create the body of the request for the get() method.
     input['method'] = 'Workspace.get'
-    input['params'] = { 'objects': [ '/mendessoares/home/models/.'+id+'_model/'+id+'_model.sbml' ] }
+    input['params'] = { 'objects': [ '/mendessoares/modelseed/'+id+'_model/'+id+'_model.sbml' ] }
     
     # Send the request to the server and get back a response.            
     #added exception because the website gave an error and just stopped. I'll check in the morning how this looks. I'm not sure did it right (Lena)
     response = requests.post(wsurl, data=json.dumps(input), headers=headers)
-            
     if response.status_code != requests.codes.OK:
         response.raise_for_status()
+        
+    # The returned data is the URL of the shock node containing the sbml file.
     output = json.loads(response.text)['result'][0]
-            
+
+    # Get the sbml file from shock.
+    response = requests.get(output[0][1]+'?download', headers={ 'AUTHORIZATION': 'OAuth '+token })
+    if response.status_code != requests.codes.OK:
+        response.raise_for_status()
+
     # Store the SBML text in a file.    
     with open('../userOutput/models/%s.sbml' %id, 'w') as handle: # Use the genome ID as the file name
-        handle.write(output[0][1]) # File data is in the second element of the returned tuple
+        handle.write(response.text) # File data is in the response object
             
