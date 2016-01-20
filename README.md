@@ -1,3 +1,5 @@
+###January 20, 2015 - ModelSEED has been undergoing changes. We will be regularly updating MMinte to reflect this changes, so check back every once in a while to make sure you have the most recent version of MMinte.
+
 ###December 23, 2015 - Widget3 is functional! The models are reconstructed and moved to the user's local machine. Let us know if oyu have any other problems and we'll look into them. Thanks!
 
 ### December 22, 2015 - ModelSEED is still having problems. While most models in our example files are now reconstructed and exported to the user's local machine, some aren't. We are working on that. In the meantime, if you want to try MMinte and have a specific set of genome IDs you can't seem to be able to get, let us know, and we'll reconstruct them for you and make them available. Thanks for your patience and Happy Holidays!
