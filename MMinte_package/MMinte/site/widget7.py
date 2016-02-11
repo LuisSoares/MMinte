@@ -86,7 +86,7 @@ def createJSONforD3(links,nodes):
     @summary: dump the new data into a json file
     '''
     
-    with open('data4plot.json','w') as outfile:
+    with open('data4plot_json','w') as outfile:
         json.dump(dataDict, outfile)
         
         

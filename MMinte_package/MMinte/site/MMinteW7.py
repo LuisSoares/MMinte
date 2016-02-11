@@ -6,7 +6,31 @@ import webbrowser
 import cherrypy
 cherrypy.config.update({"response.timeout":1000000,'log.access_file': '../supportFiles/logAccess_file.txt',
                         'log.error_file': '../supportFiles/logError_file.txt','log.screen':False})
-    
+
+import cherrypy
+class custom_root(server.Root):
+    @cherrypy.expose
+    def widget7_out(self):
+		ROOT_DIR = os.path.dirname(os.path.realpath('index.html'))
+		full_path = ROOT_DIR + '/index.html'
+		with open(full_path) as data:
+			return data.read()
+    @cherrypy.expose
+    def d3(self):
+		ROOT_DIR = os.path.dirname(os.path.realpath('d3.v3.min.js'))
+		full_path = ROOT_DIR + '/d3.v3.min.js'
+		with open(full_path) as data:
+			return data.read()
+    @cherrypy.expose
+    def data4plot_json(self):
+		ROOT_DIR = os.path.dirname(os.path.realpath('data4plot_json'))
+		full_path = ROOT_DIR + '/data4plot_json'
+		with open(full_path) as data:
+			return data.read()
+			
+server.Root=custom_root
+			
+	
 class Widget7(server.App):
     title = 'Widget 7'
     
@@ -44,7 +68,7 @@ class Widget7(server.App):
         createJSONforD3(links,nodes)
         ROOT_DIR = os.path.dirname(os.path.realpath('index.html'))        
         full_path = ROOT_DIR + '/index.html'
-        webbrowser.get('firefox').open_new_tab('file://%s' %full_path)
+        webbrowser.open_new_tab('http://localhost:8080/widget7_out')
         
         head = ["The plot with the network of interactions between your favorite organisms is shown on a new tab."]
         head.append('<br>')
